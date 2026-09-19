@@ -125,6 +125,9 @@ namespace CPOLICE
             }
             else
             {
+                mode = LightMode.Off;
+                strobePhase = 0;
+                nextStrobeTick = 0;
                 RemoveGlower();
             }
         }
@@ -134,13 +137,20 @@ namespace CPOLICE
             Pawn pawn = Wearer;
             if (pawn == null || !pawn.Spawned || pawn.Dead || pawn.Downed || mode == LightMode.Off)
             {
+                if (pawn == null || !pawn.Spawned || pawn.Dead || pawn.Downed)
+                {
+                    mode = LightMode.Off;
+                    strobePhase = 0;
+                    nextStrobeTick = 0;
+                }
+
                 RemoveGlower();
                 return false;
             }
 
             if (mode == LightMode.White)
             {
-                EnsureGlower(pawn, new ColorInt(255, 244, 220), Props.whiteRadius, 1);
+                EnsureGlower(pawn, new ColorInt(255, 255, 255), Props.whiteRadius, 1);
                 return true;
             }
 
