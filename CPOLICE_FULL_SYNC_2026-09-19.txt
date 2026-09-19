@@ -1,0 +1,10 @@
+CPOLICE full repository sync marker
+Date: 2026-09-19
+RimWorld: 1.6
+
+This commit marks the current main branch as the complete CPOLICE mod source for local Git synchronization.
+
+Expected local mod root:
+D:\\steam\\steamapps\\common\\RimWorld\\Mods\\CPOLICE
+
+Includes About, 1.6 Defs, CE compatibility, Textures, Source and LoadFolders.xml.
