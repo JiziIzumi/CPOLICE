@@ -6,10 +6,10 @@
     <label>一级辅警｜肩章</label>
     <description>CPOLICE F1 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F1。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/一级辅警肩章/一级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/一级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/一级辅警肩章/一级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/一级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -25,10 +25,10 @@
     <label>二级辅警｜肩章</label>
     <description>CPOLICE F2 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F2。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/二级辅警肩章/二级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/二级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/二级辅警肩章/二级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/二级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -44,10 +44,10 @@
     <label>三级辅警｜肩章</label>
     <description>CPOLICE F3 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F3。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/三级辅警肩章/三级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/三级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/三级辅警肩章/三级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/三级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -63,10 +63,10 @@
     <label>四级辅警｜肩章</label>
     <description>CPOLICE F4 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F4。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/四级辅警肩章/四级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/四级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/四级辅警肩章/四级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/四级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -82,10 +82,10 @@
     <label>五级辅警｜肩章</label>
     <description>CPOLICE F5 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F5。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/五级辅警肩章/五级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/五级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/五级辅警肩章/五级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/五级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -101,10 +101,10 @@
     <label>六级辅警｜肩章</label>
     <description>CPOLICE F6 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F6。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/六级辅警肩章/六级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/六级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/六级辅警肩章/六级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/六级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -120,10 +120,10 @@
     <label>七级辅警｜肩章</label>
     <description>CPOLICE F7 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F7。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/七级辅警肩章/七级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/七级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/七级辅警肩章/七级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/七级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -139,10 +139,10 @@
     <label>八级辅警｜肩章</label>
     <description>CPOLICE F8 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F8。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/八级辅警肩章/八级辅警肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/八级辅警肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/八级辅警肩章/八级辅警肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/八级辅警肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -158,10 +158,10 @@
     <label>二级警员｜肩章</label>
     <description>CPOLICE J1 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J1。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/二级警员肩章/二级警员肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/二级警员肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/二级警员肩章/二级警员肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/二级警员肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -177,10 +177,10 @@
     <label>一级警员｜肩章</label>
     <description>CPOLICE J2 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J2。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/一级警员肩章/一级警员肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/一级警员肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/一级警员肩章/一级警员肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/一级警员肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -196,10 +196,10 @@
     <label>三级警司｜肩章</label>
     <description>CPOLICE J3 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J3。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/三级警司肩章/三级警司肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/三级警司肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/三级警司肩章/三级警司肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/三级警司肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -215,10 +215,10 @@
     <label>二级警司｜肩章</label>
     <description>CPOLICE J4 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J4。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/二级警司肩章/二级警司肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/二级警司肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/二级警司肩章/二级警司肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/二级警司肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -234,10 +234,10 @@
     <label>一级警司｜肩章</label>
     <description>CPOLICE J5 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J5。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/一级警司肩章/一级警司肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/一级警司肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/一级警司肩章/一级警司肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/一级警司肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -253,10 +253,10 @@
     <label>三级警督｜肩章</label>
     <description>CPOLICE J6 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J6。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/三级警督肩章/三级警督肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/三级警督肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/三级警督肩章/三级警督肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/三级警督肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -272,10 +272,10 @@
     <label>二级警督｜肩章</label>
     <description>CPOLICE J7 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J7。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/二级警督肩章/二级警督肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/二级警督肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/二级警督肩章/二级警督肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/二级警督肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -291,10 +291,10 @@
     <label>一级警督｜肩章</label>
     <description>CPOLICE J8 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J8。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/一级警督肩章/一级警督肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/一级警督肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/一级警督肩章/一级警督肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/一级警督肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -310,10 +310,10 @@
     <label>三级警监｜肩章</label>
     <description>CPOLICE J9 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J9。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/三级警监肩章/三级警监肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/三级警监肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/三级警监肩章/三级警监肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/三级警监肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -329,10 +329,10 @@
     <label>二级警监｜肩章</label>
     <description>CPOLICE J10 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J10。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/二级警监肩章/二级警监肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/二级警监肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/二级警监肩章/二级警监肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/二级警监肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -348,10 +348,10 @@
     <label>一级警监｜肩章</label>
     <description>CPOLICE J11 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J11。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/一级警监肩章/一级警监肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/一级警监肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/一级警监肩章/一级警监肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/一级警监肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -367,10 +367,10 @@
     <label>副总警监｜肩章</label>
     <description>CPOLICE J12 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J12。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/副总警监肩章/副总警监肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/副总警监肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/副总警监肩章/副总警监肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/副总警监肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
@@ -386,10 +386,10 @@
     <label>总警监｜肩章</label>
     <description>CPOLICE J13 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J13。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/总警监肩章/总警监肩章</texPath>
+      <texPath>Things/CPOLICE_Ranks/总警监肩章</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/总警监肩章/总警监肩章</wornGraphicPath>
+      <wornGraphicPath>Things/CPOLICE_Ranks/总警监肩章</wornGraphicPath>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
