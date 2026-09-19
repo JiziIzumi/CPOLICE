@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PoliceDutyUniform</defName>
-    <label>警察制服</label>
+    <label>警员｜执勤服</label>
     <description>标准警察制服套装的上衣部分。用于表现正式警务人员在巡逻防控、接处警、治安管理、社区警务和现场处置中的职业身份。制服以深色为主，强调权威、规范和辨识度，可与黑色防护裤、警察巡逻帽或人民警察执勤帽搭配使用。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PoliceDutyUniform/CPOLICE_PoliceDutyUniform</texPath>
@@ -17,7 +17,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>105</MaxHitPoints>
-      <WorkToMake>4000</WorkToMake>
+      <WorkToMake>800</WorkToMake>
       <Mass>0.90</Mass>
       <Flammability>1.0</Flammability>
       <EquipDelay>2</EquipDelay>
@@ -37,6 +37,7 @@
       <layers>
         <li>CPOLICE_Uniform</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -50,7 +51,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_BlackPants</defName>
-    <label>黑色防护裤</label>
+    <label>通用｜执勤裤</label>
     <description>黑色警用防护裤。用于巡逻、执勤和战术支援时保护腿部，游戏内提供 90% 防御，只需 15 块布即可制作，不需要任何研究科技。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_BlackPants/CPOLICE_BlackPants</texPath>
@@ -65,7 +66,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>0.60</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -84,6 +85,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -97,7 +99,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_ReflectiveVest</defName>
-    <label>警用反光背心</label>
+    <label>警员｜反光背心</label>
     <description>用于交通疏导、夜间巡逻、现场警戒和大型活动秩序维护的高可视度背心。游戏内调整为全身覆盖的 90% 防弹护具，只需 15 块布即可制作，不需要任何研究科技。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_ReflectiveVest/CPOLICE_ReflectiveVest</texPath>
@@ -112,7 +114,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>1.00</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -130,6 +132,7 @@
       <layers>
         <li>CPOLICE_Vest</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -143,7 +146,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PatrolCap</defName>
-    <label>警察巡逻帽</label>
+    <label>警员｜巡逻帽</label>
     <description>用于日常巡逻、秩序维护和基层警务执勤的警察巡逻帽。游戏内设置为全身覆盖的 90% 防弹护具，只需 15 块布即可制作，不需要任何研究科技。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PatrolCap/CPOLICE_PatrolCap</texPath>
@@ -158,7 +161,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>0.50</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -170,12 +173,12 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PatrolCap/CPOLICE_PatrolCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -189,7 +192,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PoliceCap</defName>
-    <label>人民警察执勤帽</label>
+    <label>警员｜执勤帽</label>
     <description>人民警察执勤帽。游戏内调整为全身覆盖的 90% 防弹护具，只需 15 块布即可制作，不需要任何研究科技。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PoliceCap/CPOLICE_PoliceCap</texPath>
@@ -204,7 +207,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>0.50</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -216,12 +219,12 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PoliceCap/CPOLICE_PoliceCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
