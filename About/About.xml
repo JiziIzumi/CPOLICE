@@ -6,7 +6,7 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>CPOLICE rank pack add-on for Rocket's Ranks. Adds F1-F8 auxiliary police levels before J1-J13 police ranks. J9-J13 are set as officer ranks. Also adds visible CPOLICE uniforms, vests, caps, and rank-matched shoulder insignia apparel.</description>
+  <description>CPOLICE｜中国警察装备与警衔扩展（RimWorld 1.6）。包含辅警与人民警察警衔、对应肩章、执勤/交警/特警/正式场合服装、警用配件、伸缩警棍、防暴盾牌、镇暴头盔、配枪执勤腰带、港式警用风衣、对讲机与肩灯，以及多种中国警用枪械。支持 Combat Extended 条件兼容；警衔系统依赖 Rocket's Ranks。</description>
   <modDependencies>
     <li>
       <packageId>rockets.ranks</packageId>
