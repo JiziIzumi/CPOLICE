@@ -14,4 +14,18 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_9mm_CQC171</defName>
+    <label>9mm CQC171 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>26</damageAmountBase>
+      <armorPenetrationBase>0.28</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
 </Defs>
