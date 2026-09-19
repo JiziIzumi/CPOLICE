@@ -5,7 +5,7 @@
     <label>通用｜110臂章</label>
     <description>110臂章，佩戴在手臂位置的警用识别袖套/臂章。它使用独立 CPOLICE_Armband 图层，不占用帽子、内衬、背心或腰带栏位。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_110Armband/CPOLICE_110Armband</texPath>
+      <texPath>Things/Apparel/CPOLICE/110臂章/110臂章</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -25,7 +25,7 @@
       <Cloth>10</Cloth>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_110Armband/CPOLICE_110Armband</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/110臂章/110臂章</wornGraphicPath>
       <layers>
         <li>CPOLICE_Armband</li>
       </layers>
