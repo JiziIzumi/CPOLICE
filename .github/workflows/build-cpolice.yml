@@ -1,0 +1,38 @@
+name: Build CPOLICE DLL
+
+on:
+  push:
+    branches:
+      - rebuild/full-cpolice-mod
+    paths:
+      - 'Source/CPOLICE/**'
+      - '.github/workflows/build-cpolice.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Restore
+        run: dotnet restore Source/CPOLICE/CPOLICE.csproj
+      - name: Build
+        run: dotnet build Source/CPOLICE/CPOLICE.csproj -c Release --no-restore
+      - name: Commit compiled DLL
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Assemblies/CPOLICE.dll
+          if (-not (git diff --cached --quiet)) {
+            git commit -m "Build CPOLICE runtime DLL [skip ci]"
+            git push
+          }
