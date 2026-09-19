@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_110Armband</defName>
+    <label>110臂章</label>
+    <description>110臂章，佩戴在手臂位置的警用识别袖套/臂章。它使用独立 CPOLICE_Armband 图层，不占用帽子、内衬、背心或腰带栏位。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_110Armband/CPOLICE_110Armband</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>300</WorkToMake>
+      <Mass>0.10</Mass>
+      <Flammability>0.8</Flammability>
+      <EquipDelay>0.5</EquipDelay>
+      <ArmorRating_Sharp>0.56</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+    </statBases>
+    <costList>
+      <Cloth>10</Cloth>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_110Armband/CPOLICE_110Armband</wornGraphicPath>
+      <layers>
+        <li>CPOLICE_Armband</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

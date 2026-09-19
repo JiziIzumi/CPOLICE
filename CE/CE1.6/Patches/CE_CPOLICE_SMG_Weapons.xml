@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMG"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_Type79SMG</defName>
+      <statBases>
+        <Mass>1.75</Mass>
+        <Bulk>4.5</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.09</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.20</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.55</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x25mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>70</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>20</magazineSize>
+        <reloadTime>3.2</reloadTime>
+        <ammoSet>AmmoSet_762x25mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMGA"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_Type79SMGA</defName>
+      <statBases>
+        <Mass>1.85</Mass>
+        <Bulk>4.8</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.09</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.20</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.55</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x25mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>72</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>30</magazineSize>
+        <reloadTime>3.2</reloadTime>
+        <ammoSet>AmmoSet_762x25mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMGB"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_Type79SMGB</defName>
+      <statBases>
+        <Mass>1.95</Mass>
+        <Bulk>5.2</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.09</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.22</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.60</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x25mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.80</warmupTime>
+        <range>70</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>50</magazineSize>
+        <reloadTime>3.8</reloadTime>
+        <ammoSet>AmmoSet_762x25mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_CQC171Tactical"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_CQC171Tactical</defName>
+      <statBases>
+        <Mass>2.80</Mass>
+        <Bulk>5.8</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.09</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.22</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.45</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9x19mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>80</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>30</magazineSize>
+        <reloadTime>3.4</reloadTime>
+        <ammoSet>AmmoSet_9x19mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92G"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QSZ92G</defName>
+      <statBases>
+        <Mass>0.76</Mass>
+        <Bulk>2.0</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.08</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.28</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.35</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9x19mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.45</warmupTime>
+        <range>70</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>15</magazineSize>
+        <reloadTime>2.2</reloadTime>
+        <ammoSet>AmmoSet_9x19mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92ATactical"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QSZ92ATactical</defName>
+      <statBases>
+        <Mass>0.90</Mass>
+        <Bulk>2.2</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.075</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.30</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_9x19mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.40</warmupTime>
+        <range>72</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>15</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>AmmoSet_9x19mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type972Shotgun"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_Type972Shotgun</defName>
+      <statBases>
+        <Mass>3.18</Mass>
+        <Bulk>8.0</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.18</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>2.70</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12GaugeCPOLICE_Buck</defaultProjectile>
+        <warmupTime>0.90</warmupTime>
+        <range>70</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_PumpShotgun</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>5</magazineSize>
+        <reloadTime>4.0</reloadTime>
+        <ammoSet>AmmoSet_12GaugeCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBS09Shotgun"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QBS09Shotgun</defName>
+      <statBases>
+        <Mass>3.45</Mass>
+        <Bulk>8.2</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.16</ShotSpread>
+        <SightsEfficiency>0.85</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>2.40</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_12GaugeCPOLICE_Buck</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>80</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_PumpShotgun</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>5</magazineSize>
+        <reloadTime>3.6</reloadTime>
+        <ammoSet>AmmoSet_12GaugeCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QBZ95</defName>
+      <statBases>
+        <Mass>3.25</Mass>
+        <Bulk>7.0</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.08</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.24</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.50</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_58x42mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.80</warmupTime>
+        <range>60</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>30</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>AmmoSet_58x42mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ951Longbow"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QBZ951Longbow</defName>
+      <statBases>
+        <Mass>3.45</Mass>
+        <Bulk>7.3</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.075</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.23</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.50</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_58x42mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>70</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>30</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>AmmoSet_58x42mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QBZ192</defName>
+      <statBases>
+        <Mass>3.35</Mass>
+        <Bulk>7.1</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.07</ShotSpread>
+        <SightsEfficiency>0.90</SightsEfficiency>
+        <RangedWeapon_Cooldown>0.22</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.50</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_58x42mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>80</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>30</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>AmmoSet_58x42mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiUseBurstMode>TRUE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBU88SniperRifle"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_QBU88SniperRifle</defName>
+      <statBases>
+        <Mass>4.10</Mass>
+        <Bulk>8.5</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.045</ShotSpread>
+        <SightsEfficiency>0.95</SightsEfficiency>
+        <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>0.80</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_58x42mmCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>1.40</warmupTime>
+        <range>120</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>10</magazineSize>
+        <reloadTime>2.8</reloadTime>
+        <ammoSet>AmmoSet_58x42mmCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_CSLR4SniperRifle"]</xpath>
+    <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
+      <defName>CPOLICE_CSLR4SniperRifle</defName>
+      <statBases>
+        <Mass>6.50</Mass>
+        <Bulk>10.5</Bulk>
+        <SwayFactor>1.0</SwayFactor>
+        <ShotSpread>0.035</ShotSpread>
+        <SightsEfficiency>1.00</SightsEfficiency>
+        <RangedWeapon_Cooldown>2.80</RangedWeapon_Cooldown>
+      </statBases>
+      <Properties>
+        <recoilAmount>1.60</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_308WinCPOLICE_FMJ</defaultProjectile>
+        <warmupTime>2.20</warmupTime>
+        <range>160</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </Properties>
+      <AmmoUser>
+        <magazineSize>5</magazineSize>
+        <reloadTime>3.5</reloadTime>
+        <ammoSet>AmmoSet_308WinCPOLICE</ammoSet>
+      </AmmoUser>
+      <FireModes>
+        <aimedBurstShotCount>1</aimedBurstShotCount>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </FireModes>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations />
+    </nomatch>
+  </Operation>
+</Patch>

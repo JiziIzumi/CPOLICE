@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_308Win_CSLR4</defName>
+    <label>.308 sniper bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_308Win_CSLR4</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>80</damageAmountBase>
+      <armorPenetrationBase>0.90</armorPenetrationBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_58x42_QBU88</defName>
+    <label>5.8mm sniper bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBU88</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <armorPenetrationBase>0.70</armorPenetrationBase>
+      <speed>105</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_12Gauge_QBS09</defName>
+    <label>12 gauge shotgun shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_12Gauge_QBS09</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <armorPenetrationBase>0.28</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

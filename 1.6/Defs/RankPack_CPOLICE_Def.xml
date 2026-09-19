@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RocketsRanks.RankPackDef>
+    <defName>CPOLICE_Ranks</defName>
+    <label>CPOLICE Ranks</label>
+    <description>CPOLICE auxiliary and police ranks from F1 to J8.</description>
+    <previewRank>CPOLICE_Rank_J8</previewRank>
+  </RocketsRanks.RankPackDef>
+
+  <RocketsRanks.RankPackDef>
+    <defName>CPOLICE_Officers</defName>
+    <label>CPOLICE Officers</label>
+    <description>CPOLICE command officer ranks from J9 to J13.</description>
+    <previewRank>CPOLICE_Rank_J13</previewRank>
+    <isOfficerPack>true</isOfficerPack>
+  </RocketsRanks.RankPackDef>
+
+</Defs>

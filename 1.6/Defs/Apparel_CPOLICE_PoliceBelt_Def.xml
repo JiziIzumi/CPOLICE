@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_PoliceBelt</defName>
+    <label>警用腰带</label>
+    <description>警用腰带，用于携带基础警务装备、弹匣和勤务工具。属性按武警56式胸挂规格编写，提供额外携带能力与移动速度。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_PoliceBelt/CPOLICE_PoliceBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>600</WorkToMake>
+      <Mass>1.00</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.64</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+    </statBases>
+    <costList>
+      <Cloth>15</Cloth>
+      <Steel>50</Steel>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PoliceBelt/CPOLICE_PoliceBelt</wornGraphicPath>
+      <layers>
+        <li>CPOLICE_BeltRig</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Waist</li>
+      </bodyPartGroups>
+    </apparel>
+    <equippedStatOffsets>
+      <CarryingCapacity>50</CarryingCapacity>
+      <MoveSpeed>20</MoveSpeed>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

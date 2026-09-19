@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_AuxiliaryPoliceVest</defName>
+    <label>辅警背心</label>
+    <description>辅助警务人员执勤背心。用于巡逻协助、秩序维护、交通疏导、现场警戒和大型活动安保支援。游戏内设置为全身覆盖的 90% 防护装备，只需 15 块布即可制作，不需要任何研究科技。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_AuxiliaryPoliceVest/CPOLICE_AuxiliaryPoliceVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>1.00</Mass>
+      <Flammability>0.2</Flammability>
+      <EquipDelay>1</EquipDelay>
+      <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.64</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliaryPoliceVest/CPOLICE_AuxiliaryPoliceVest</wornGraphicPath>
+      <layers>
+        <li>CPOLICE_Vest</li>
+      </layers>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F1_Insignia</defName>
+    <label>F1 肩章</label>
+    <description>CPOLICE F1 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F1。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F1/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F1/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F1</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>1</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F2_Insignia</defName>
+    <label>F2 肩章</label>
+    <description>CPOLICE F2 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F2。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F2/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F2/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F2</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>2</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F3_Insignia</defName>
+    <label>F3 肩章</label>
+    <description>CPOLICE F3 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F3。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F3/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F3/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F3</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>3</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F4_Insignia</defName>
+    <label>F4 肩章</label>
+    <description>CPOLICE F4 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F4。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F4/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F4/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F4</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>4</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F5_Insignia</defName>
+    <label>F5 肩章</label>
+    <description>CPOLICE F5 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F5。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F5/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F5/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F5</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>5</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F6_Insignia</defName>
+    <label>F6 肩章</label>
+    <description>CPOLICE F6 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F6。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F6/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F6/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F6</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>6</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F7_Insignia</defName>
+    <label>F7 肩章</label>
+    <description>CPOLICE F7 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F7。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F7/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F7/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F7</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>7</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F8_Insignia</defName>
+    <label>F8 肩章</label>
+    <description>CPOLICE F8 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 F8。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/F8/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/F8/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_F8</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>8</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J1_Insignia</defName>
+    <label>J1 肩章</label>
+    <description>CPOLICE J1 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J1。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J1/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J1/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J1</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>9</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J2_Insignia</defName>
+    <label>J2 肩章</label>
+    <description>CPOLICE J2 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J2。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J2/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J2/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J2</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>10</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J3_Insignia</defName>
+    <label>J3 肩章</label>
+    <description>CPOLICE J3 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J3。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J3/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J3/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J3</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>11</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J4_Insignia</defName>
+    <label>J4 肩章</label>
+    <description>CPOLICE J4 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J4。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J4/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J4/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J4</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>12</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J5_Insignia</defName>
+    <label>J5 肩章</label>
+    <description>CPOLICE J5 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J5。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J5/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J5/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J5</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>13</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J6_Insignia</defName>
+    <label>J6 肩章</label>
+    <description>CPOLICE J6 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J6。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J6/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J6/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J6</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>14</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J7_Insignia</defName>
+    <label>J7 肩章</label>
+    <description>CPOLICE J7 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J7。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J7/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J7/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J7</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>15</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J8_Insignia</defName>
+    <label>J8 肩章</label>
+    <description>CPOLICE J8 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J8。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J8/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J8/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J8</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>16</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>Apparel_CPOLICE_Rank_J9_Insignia</defName>
+    <label>J9 肩章</label>
+    <description>CPOLICE J9 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J9。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J9/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J9/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J9</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>17</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>Apparel_CPOLICE_Rank_J10_Insignia</defName>
+    <label>J10 肩章</label>
+    <description>CPOLICE J10 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J10。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J10/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J10/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J10</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>18</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>Apparel_CPOLICE_Rank_J11_Insignia</defName>
+    <label>J11 肩章</label>
+    <description>CPOLICE J11 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J11。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J11/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J11/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J11</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>19</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>Apparel_CPOLICE_Rank_J12_Insignia</defName>
+    <label>J12 肩章</label>
+    <description>CPOLICE J12 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J12。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J12/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J12/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J12</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>20</uiOrder>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>Apparel_CPOLICE_Rank_J13_Insignia</defName>
+    <label>J13 肩章</label>
+    <description>CPOLICE J13 级别的专用肩章，通过 Rocket's Ranks 的 RankExtension 绑定到 J13。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_Ranks/J13/Rank</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/CPOLICE_Ranks/J13/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>CPOLICE_Rank_J13</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>21</uiOrder>
+  </ThingDef>
+</Defs>

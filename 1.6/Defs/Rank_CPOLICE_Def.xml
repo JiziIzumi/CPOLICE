@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F1</defName>
+    <label>F1</label>
+    <description>中国大陆公安机关警务辅助人员的入门层级。通常处于岗前培训、试用或初入岗位阶段，主要在人民警察带领下学习巡逻协助、秩序维护、基础登记、群众服务和警务辅助流程，不独立行使执法权。</description>
+    <rankLevel>1</rankLevel>
+    <iconPath>UI/CPOLICE/F1</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F2</defName>
+    <label>F2</label>
+    <description>完成基础培训后的初级辅助警务人员。能够承担较稳定的辅助任务，包括协助巡逻防控、现场秩序维护、窗口引导、信息登记和日常勤务保障，是基层警务工作中的基础支援力量。</description>
+    <rankLevel>2</rankLevel>
+    <iconPath>UI/CPOLICE/F2</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F3</defName>
+    <label>F3</label>
+    <description>具备一定岗位经验的辅助警务人员。相比初级辅警，能够更熟悉辖区情况和勤务流程，可协助处理常见警情、维护活动秩序、配合交通疏导，并在民警指挥下完成基础处置任务。</description>
+    <rankLevel>3</rankLevel>
+    <iconPath>UI/CPOLICE/F3</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F4</defName>
+    <label>F4</label>
+    <description>较成熟的辅助警务人员。通常已经掌握较完整的岗位技能，能够在巡逻、社区协助、接处警辅助、警务保障和群众沟通中承担更多责任，是基层队伍中可靠的执行人员。</description>
+    <rankLevel>4</rankLevel>
+    <iconPath>UI/CPOLICE/F4</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F5</defName>
+    <label>F5</label>
+    <description>高级辅助警务人员。具有较强的业务熟练度和现场协助能力，能够带动低层级辅警完成日常勤务，在复杂场景中保持纪律、秩序和执行效率，是辅警队伍中的骨干力量。</description>
+    <rankLevel>5</rankLevel>
+    <iconPath>UI/CPOLICE/F5</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F6</defName>
+    <label>F6</label>
+    <description>基层辅警骨干层级。除完成个人辅助勤务外，还可协助管理小组任务、传达工作安排、检查装备和纪律执行情况，在人民警察指挥下承担一定组织协调职责。</description>
+    <rankLevel>6</rankLevel>
+    <iconPath>UI/CPOLICE/F6</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F7</defName>
+    <label>F7</label>
+    <description>较高级的辅警管理骨干。通常具备较长服务经验和较强业务能力，能够协助民警组织班组勤务、带教新入职辅警、协调现场支援，并维护辅警队伍的日常秩序。</description>
+    <rankLevel>7</rankLevel>
+    <iconPath>UI/CPOLICE/F7</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_F8</defName>
+    <label>F8</label>
+    <description>辅助警务人员中的最高骨干层级。主要承担资深协助、队伍带教、勤务协调和基层管理支持职责，是连接人民警察与普通辅警之间的重要辅助力量，但仍不属于正式人民警察警衔。</description>
+    <rankLevel>8</rankLevel>
+    <iconPath>UI/CPOLICE/F8</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J1</defName>
+    <label>J1</label>
+    <description>公安院校或警务训练体系中的入门学员层级。主要学习政治纪律、法律基础、队列训练、警务礼仪、体能训练和基础警务常识，尚未具备正式人民警察身份，代表从预备警务人员向职业警察发展的起点。</description>
+    <rankLevel>9</rankLevel>
+    <iconPath>UI/CPOLICE/J1</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J2</defName>
+    <label>J2</label>
+    <description>完成基础学习后的进阶学员。开始接触更系统的治安管理、刑事侦查基础、群众工作、警务技能和应急处置训练，具备进入见习岗位前的基本职业素养。</description>
+    <rankLevel>10</rankLevel>
+    <iconPath>UI/CPOLICE/J2</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J3</defName>
+    <label>J3</label>
+    <description>进入实际岗位后的见习阶段。主要在正式民警指导下熟悉基层公安工作，学习接处警、巡逻防控、案事件登记、群众沟通和执法规范，为正式承担警务职责做准备。</description>
+    <rankLevel>11</rankLevel>
+    <iconPath>UI/CPOLICE/J3</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J4</defName>
+    <label>J4</label>
+    <description>人民警察中的初级执行层级。主要承担基层执法、巡逻、接警辅助处置、社区警务、交通管理或其他一线警务任务，是公安机关日常运转中的基础力量。</description>
+    <rankLevel>12</rankLevel>
+    <iconPath>UI/CPOLICE/J4</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J5</defName>
+    <label>J5</label>
+    <description>较成熟的基层警务执行人员。相比二级警员，具备更稳定的执法经验和群众工作能力，能够独立完成较多日常警务任务，并在复杂情况中保持纪律和程序意识。</description>
+    <rankLevel>13</rankLevel>
+    <iconPath>UI/CPOLICE/J5</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J6</defName>
+    <label>J6</label>
+    <description>初级警官层级。通常已经具备较完整的一线工作经验，能够承担案件办理、治安管理、巡逻组织、基础指挥和专项任务执行，是基层警务中的重要骨干。</description>
+    <rankLevel>14</rankLevel>
+    <iconPath>UI/CPOLICE/J6</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J7</defName>
+    <label>J7</label>
+    <description>中坚警务骨干。能够在基层单位中承担更复杂的执法和管理任务，协助组织小组行动、指导低级警员，并在日常勤务中发挥稳定的业务支撑作用。</description>
+    <rankLevel>15</rankLevel>
+    <iconPath>UI/CPOLICE/J7</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J8</defName>
+    <label>J8</label>
+    <description>高级基层警务骨干。通常具有丰富的一线经验和较强的独立处置能力，能够承担较高强度的治安、侦查、社区或交通管理任务，是进入更高指挥层级前的重要阶段。</description>
+    <rankLevel>16</rankLevel>
+    <iconPath>UI/CPOLICE/J8</iconPath>
+    <pack>CPOLICE_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J9</defName>
+    <label>J9</label>
+    <description>初级指挥警官层级。开始承担更明确的组织、指挥和监督职责，可负责小队、警组或专项任务的现场协调，确保警务行动符合法律程序和纪律要求。</description>
+    <rankLevel>17</rankLevel>
+    <iconPath>UI/CPOLICE/J9</iconPath>
+    <pack>CPOLICE_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J10</defName>
+    <label>J10</label>
+    <description>较成熟的指挥警官。通常负责更复杂的勤务组织、案件协调、人员管理或专项行动执行，能够在基层单位中承担承上启下的指挥和管理职责。</description>
+    <rankLevel>18</rankLevel>
+    <iconPath>UI/CPOLICE/J10</iconPath>
+    <pack>CPOLICE_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J11</defName>
+    <label>J11</label>
+    <description>高级指挥警官。具备较强的综合管理、执法监督和行动组织能力，能够负责重要勤务、跨组协调或较复杂警情处置，是基层与中层警务指挥之间的核心力量。</description>
+    <rankLevel>19</rankLevel>
+    <iconPath>UI/CPOLICE/J11</iconPath>
+    <pack>CPOLICE_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J12</defName>
+    <label>J12</label>
+    <description>高级警官层级。通常对应更高层次的管理和监督职责，关注的不只是单一现场任务，而是队伍建设、执法质量、区域治安形势和重大行动统筹。</description>
+    <rankLevel>20</rankLevel>
+    <iconPath>UI/CPOLICE/J12</iconPath>
+    <pack>CPOLICE_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>CPOLICE_Rank_J13</defName>
+    <label>J13</label>
+    <description>资深高级警官层级。负责更大范围的警务指挥、组织管理和战略协调，强调全局判断、资源调配、纪律监督和重大任务决策，是本套 CPOLICE 警衔中的最高指挥层级。</description>
+    <rankLevel>21</rankLevel>
+    <iconPath>UI/CPOLICE/J13</iconPath>
+    <pack>CPOLICE_Officers</pack>
+  </RocketsRanks.RankDef>
+
+</Defs>

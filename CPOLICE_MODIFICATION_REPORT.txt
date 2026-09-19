@@ -1,0 +1,23 @@
+CPOLICE modification pass — 2026-09-19
+
+Applied:
+1. Police belt MoveSpeed changed from absolute +20 to multiplicative x1.20 (+20%).
+2. Removed erroneous FullHead body coverage from police and auxiliary special-duty uniforms.
+3. Added a dedicated vanilla CQC171 9x19 projectile identity and bound CQC171 to it.
+4. Reduced every 1.6 Def WorkToMake by 80%; values above 1200 after reduction are capped at 1200 for fast low-skill crafting.
+5. Added explicit useIngredientsForColor=false to apparel definitions that lacked it, preserving fixed texture colors.
+6. Added CPOLICE abstract rank-insignia parent defs over Rocket's Ranks Enlisted/Officer parents and made insignia explicitly alwaysHaulable, while preserving existing defNames and RankExtension bindings.
+7. Simplified LoadFolders to one vanilla authority (1.6) and one conditional CE authority (CE/CE1.6).
+8. Removed misleading numeric “90% protection” wording from apparel descriptions without changing armor values.
+
+Validation:
+- XML files parsed: 32
+- XML parse errors: 0
+- Duplicate concrete defNames in Def files: 0
+- CQC171 vanilla projectile now: CPOLICE_Bullet_CQC171_9x19
+- Police belt MoveSpeed factor: 1.20
+- Special-duty uniforms no longer claim FullHead.
+
+Intentionally not rewritten in this pass:
+- Combat Extended weapon compatibility uses CE's PatchOperationMakeGunCECompatible rather than whole-ThingDef replacement; it was retained because it is already the narrower CE-native compatibility mechanism.
+- Existing CE ammo chains and texture assets were retained because prior exhaustive checks found no broken static references.

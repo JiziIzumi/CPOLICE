@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_762x25mmCPOLICE</defName>
+    <label>7.62x25mm police pistol rounds</label>
+    <ammoTypes>
+      <Ammo_762x25mmCPOLICE_FMJ>Bullet_762x25mmCPOLICE_FMJ</Ammo_762x25mmCPOLICE_FMJ>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="CPOLICE_762x25mmAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_762x25mmCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="CPOLICE_762x25mmAmmoBase">
+    <defName>Ammo_762x25mmCPOLICE_FMJ</defName>
+    <label>7.62×25警用手枪弹</label>
+    <description>7.62×25mm警用手枪弹，供CPOLICE体系中的79式、79A和79B冲锋枪使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_762x25mmCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_762x25mmCPOLICE_FMJ</defName>
+    <label>7.62x25mm police FMJ bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationSharp>9</armorPenetrationSharp>
+      <armorPenetrationBlunt>2</armorPenetrationBlunt>
+      <speed>500</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_762x25mmCPOLICE_FMJ</defName>
+    <label>制作7.62×25警用手枪弹</label>
+    <description>制作7.62×25警用手枪弹。</description>
+    <jobString>正在制作7.62×25警用手枪弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_762x25mmCPOLICE_FMJ>500</Ammo_762x25mmCPOLICE_FMJ>
+    </products>
+  </RecipeDef>
+</Defs>

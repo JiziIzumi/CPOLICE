@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_58x42_QBZ95</defName>
+    <label>5.8mm rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ95</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_58x42_QBZ951</defName>
+    <label>5.8mm rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ951</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_58x42_QBZ192</defName>
+    <label>5.8mm rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ192</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>38</damageAmountBase>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

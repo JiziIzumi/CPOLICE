@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_58x42mmCPOLICE</defName>
+    <label>5.8x42mm police rifle rounds</label>
+    <ammoTypes>
+      <Ammo_58x42mmCPOLICE_FMJ>Bullet_58x42mmCPOLICE_FMJ</Ammo_58x42mmCPOLICE_FMJ>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="CPOLICE_58x42mmAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_58x42mmCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="CPOLICE_58x42mmAmmoBase">
+    <defName>Ammo_58x42mmCPOLICE_FMJ</defName>
+    <label>5.8×42警用步枪弹</label>
+    <description>5.8×42mm警用步枪弹，供CPOLICE体系中的95、95-1长弓、192和88式狙击枪使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_58x42mmCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_58x42mmCPOLICE_FMJ</defName>
+    <label>5.8x42mm police FMJ bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationSharp>8</armorPenetrationSharp>
+      <armorPenetrationBlunt>2</armorPenetrationBlunt>
+      <speed>850</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_58x42mmCPOLICE_FMJ</defName>
+    <label>制作5.8×42警用步枪弹</label>
+    <description>制作5.8×42警用步枪弹。</description>
+    <jobString>正在制作5.8×42警用步枪弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_58x42mmCPOLICE_FMJ>500</Ammo_58x42mmCPOLICE_FMJ>
+    </products>
+  </RecipeDef>
+</Defs>

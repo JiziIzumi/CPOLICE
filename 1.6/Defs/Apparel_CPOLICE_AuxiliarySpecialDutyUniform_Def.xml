@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_AuxiliarySpecialDutyUniform</defName>
+    <label>辅警特勤服</label>
+    <description>辅警特勤服，数据与特勤制服一致，仅作为辅警特勤单位的独立制服版本。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_AuxiliarySpecialDutyUniform/CPOLICE_AuxiliarySpecialDutyUniform</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>105</MaxHitPoints>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>0.90</Mass>
+      <Flammability>1.0</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <ArmorRating_Sharp>0.56</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>25</Insulation_Heat>
+    </statBases>
+    <costList>
+      <Cloth>60</Cloth>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliarySpecialDutyUniform/CPOLICE_AuxiliarySpecialDutyUniform</wornGraphicPath>
+      <layers>
+        <li>CPOLICE_Coat</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Hands</li>
+        <li>Legs</li>
+        <li>Feet</li>
+        <li>FullHead</li>
+      </bodyPartGroups>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

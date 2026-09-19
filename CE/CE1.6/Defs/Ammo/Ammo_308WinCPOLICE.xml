@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_308WinCPOLICE</defName>
+    <label>.308 police sniper rounds</label>
+    <ammoTypes>
+      <Ammo_308WinCPOLICE_FMJ>Bullet_308WinCPOLICE_FMJ</Ammo_308WinCPOLICE_FMJ>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="CPOLICE_308WinAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_308WinCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="CPOLICE_308WinAmmoBase">
+    <defName>Ammo_308WinCPOLICE_FMJ</defName>
+    <label>.308警用狙击弹</label>
+    <description>.308 Winchester / 7.62×51mm警用狙击弹，供CPOLICE体系中的CS/LR4狙击步枪使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_308WinCPOLICE_FMJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_308WinCPOLICE_FMJ</defName>
+    <label>.308 police FMJ bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>80</damageAmountBase>
+      <armorPenetrationSharp>45</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+      <speed>850</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_308WinCPOLICE_FMJ</defName>
+    <label>制作.308警用狙击弹</label>
+    <description>制作.308警用狙击弹。</description>
+    <jobString>正在制作.308警用狙击弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_308WinCPOLICE_FMJ>100</Ammo_308WinCPOLICE_FMJ>
+    </products>
+  </RecipeDef>
+</Defs>

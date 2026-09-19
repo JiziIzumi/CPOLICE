@@ -1,0 +1,1717 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceDutyUniform"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.5</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <Mass>1.5</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.0</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <Bulk>2.0</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>0.8</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceTieShirt"]/statBases</xpath>
+          <value>
+            <WornBulk>0.8</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>19</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>19</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>38</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>38</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.2</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <Bulk>2.2</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>0.9</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorTieShirt"]/statBases</xpath>
+          <value>
+            <WornBulk>0.9</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliarySpecialDutyUniform"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <Mass>2.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_BlackPants"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/Mass</xpath>
+          <value>
+            <Mass>3.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <Mass>3.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>3.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <Bulk>3.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.5</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceSuitJacket"]/statBases</xpath>
+          <value>
+            <WornBulk>1.5</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/Mass</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ReflectiveVest"]/statBases</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/Mass</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPoliceVest"]/statBases</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/Mass</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <Mass>6.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <Bulk>5.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficReflectiveVest"]/statBases</xpath>
+          <value>
+            <WornBulk>3.5</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>14.4</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>14.4</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>28.8</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>28.8</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/Mass</xpath>
+          <value>
+            <Mass>7.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <Mass>7.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>6.0</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <Bulk>6.0</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>4.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATVest"]/statBases</xpath>
+          <value>
+            <WornBulk>4.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.0</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <Mass>1.0</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>1.0</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <Bulk>1.0</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>0.4</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/statBases</xpath>
+          <value>
+            <WornBulk>0.4</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>22.4</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>22.4</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/Mass</xpath>
+          <value>
+            <Mass>0.30</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <Mass>0.30</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>0.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <Bulk>0.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>0.2</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_110Armband"]/statBases</xpath>
+          <value>
+            <WornBulk>0.2</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PatrolCap"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_AuxiliaryPatrolCap"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceCap"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <Mass>1.2</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_TrafficPeakedCap"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.5</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <Mass>1.5</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.8</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <Bulk>2.8</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.1</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATHelmet"]/statBases</xpath>
+          <value>
+            <WornBulk>1.1</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Sharp</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Sharp</xpath>
+          <value>
+            <ArmorRating_Sharp>19.6</ArmorRating_Sharp>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Sharp>19.6</ArmorRating_Sharp>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Blunt</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Blunt</xpath>
+          <value>
+            <ArmorRating_Blunt>39.2</ArmorRating_Blunt>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Blunt>39.2</ArmorRating_Blunt>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Heat</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/ArmorRating_Heat</xpath>
+          <value>
+            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/Mass</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/Mass</xpath>
+          <value>
+            <Mass>1.3</Mass>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <Mass>1.3</Mass>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/Bulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/Bulk</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <Bulk>2.5</Bulk>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/WornBulk</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases/WornBulk</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SeniorPeakedCap"]/statBases</xpath>
+          <value>
+            <WornBulk>1.0</WornBulk>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>CPOLICE_Uniform</defName>
+    <label>police uniform</label>
+    <drawOrder>300</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>CPOLICE_Coat</defName>
+    <label>police coat</label>
+    <drawOrder>320</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>CPOLICE_Vest</defName>
+    <label>police vest</label>
+    <drawOrder>340</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>CPOLICE_BeltRig</defName>
+    <label>police belt rig</label>
+    <drawOrder>360</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>CPOLICE_Armband</defName>
+    <label>police armband</label>
+    <drawOrder>350</drawOrder>
+  </ApparelLayerDef>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>CPOLICE_PoliceApparel</defName>
+    <label>CPOLICE 警用装备</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>CPOLICE_PoliceWeapons</defName>
+    <label>警察武器</label>
+    <parent>WeaponsRanged</parent>
+  </ThingCategoryDef>
+</Defs>

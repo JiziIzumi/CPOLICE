@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_SeniorPeakedCap</defName>
+    <label>高级警察大盖帽</label>
+    <description>高级警务人员使用的大盖帽，带有更醒目的帽徽和金色装饰，用于区分高级警官、指挥岗位和正式礼仪场合。游戏内设置为全身覆盖的 90% 防弹护具，只需 15 块布即可制作，不需要任何研究科技。</description>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.50</Mass>
+      <Flammability>0.2</Flammability>
+      <EquipDelay>1</EquipDelay>
+      <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.98</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.55</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

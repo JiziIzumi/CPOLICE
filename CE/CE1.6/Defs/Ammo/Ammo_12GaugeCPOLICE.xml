@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12GaugeCPOLICE</defName>
+    <label>12 gauge police shotgun shells</label>
+    <ammoTypes>
+      <Ammo_12GaugeCPOLICE_Buck>Bullet_12GaugeCPOLICE_Buck</Ammo_12GaugeCPOLICE_Buck>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="CPOLICE_12GaugeAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_12GaugeCPOLICE_Buck</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="CPOLICE_12GaugeAmmoBase">
+    <defName>Ammo_12GaugeCPOLICE_Buck</defName>
+    <label>12G警用霰弹枪弹</label>
+    <description>12G警用霰弹枪弹，供CPOLICE体系中的97-2霰弹枪和09式霰弹枪使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/CPOLICE_AmmoIcons/Ammo_12GaugeCPOLICE_Buck</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>ShotgunShell</ammoClass>
+    <thingCategories>
+      <li>CPOLICE_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_12GaugeCPOLICE_Buck</defName>
+    <label>12G police buckshot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <armorPenetrationSharp>14</armorPenetrationSharp>
+      <armorPenetrationBlunt>6</armorPenetrationBlunt>
+      <speed>420</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_12GaugeCPOLICE_Buck</defName>
+    <label>制作12G警用霰弹枪弹</label>
+    <description>制作12G警用霰弹枪弹。</description>
+    <jobString>正在制作12G警用霰弹枪弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_12GaugeCPOLICE_Buck>100</Ammo_12GaugeCPOLICE_Buck>
+    </products>
+  </RecipeDef>
+</Defs>

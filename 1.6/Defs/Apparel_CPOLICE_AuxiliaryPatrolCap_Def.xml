@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CPOLICE_AuxiliaryPatrolCap</defName>
+    <label>辅警巡逻帽</label>
+    <description>辅警巡逻帽，数据与警察巡逻帽一致，仅作为辅警巡逻单位的独立帽子版本。</description>
+    <graphicData>
+      <texPath>Things/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="True">
+      <li>CPOLICE_PoliceApparel</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.50</Mass>
+      <Flammability>0.2</Flammability>
+      <EquipDelay>1</EquipDelay>
+      <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.64</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_12Gauge</defName>
+    <label>12 gauge buckshot</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_12Gauge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>CPOLICE_Bullet_9mmSniperPower</defName>
+    <label>9mm pistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/CPOLICE_Bullet_9mmSniperPower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationBase>0.38</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
