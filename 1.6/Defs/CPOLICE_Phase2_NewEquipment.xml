@@ -3,7 +3,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>CPOLICE_ExpandableBaton</defName><label>通用｜伸缩警棍</label><description>警用伸缩警棍。轻便、出手快速，以钝击制服目标为主要用途。</description>
     <graphicData><texPath>Things/Weapon/CPOLICE_ExpandableBaton/CPOLICE_ExpandableBaton</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
-    <thingCategories><li>WeaponsMelee</li></thingCategories><statBases><WorkToMake>120</WorkToMake><Mass>0.55</Mass><MeleeWeapon_AverageDPS>5.5</MeleeWeapon_AverageDPS><MeleeWeapon_CooldownMultiplier>0.72</MeleeWeapon_CooldownMultiplier></statBases>
+    <thingCategories><li>CPOLICE_PoliceWeapons</li></thingCategories><statBases><WorkToMake>120</WorkToMake><Mass>0.55</Mass><MeleeWeapon_AverageDPS>5.5</MeleeWeapon_AverageDPS><MeleeWeapon_CooldownMultiplier>0.72</MeleeWeapon_CooldownMultiplier></statBases>
     <equippedStatFactors><MeleeHitChance>1.10</MeleeHitChance></equippedStatFactors><costList><Steel>25</Steel><ComponentIndustrial>1</ComponentIndustrial></costList>
     <tools><li><label>警棍</label><capacities><li>Blunt</li></capacities><power>8</power><cooldownTime>1.05</cooldownTime><chanceFactor>1</chanceFactor></li></tools>
     <recipeMaker><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><recipeUsers><li>TableMachining</li></recipeUsers></recipeMaker>
