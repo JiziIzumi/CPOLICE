@@ -33,7 +33,8 @@
         <li>Overhead</li>
       </layers>
       <bodyPartGroups>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
@@ -182,7 +183,8 @@
         <li>Overhead</li>
       </layers>
       <bodyPartGroups>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
