@@ -5,7 +5,7 @@
     <label>辅警｜特勤服</label>
     <description>辅警特勤服，数据与特勤制服一致，仅作为辅警特勤单位的独立制服版本。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_AuxiliarySpecialDutyUniform/CPOLICE_AuxiliarySpecialDutyUniform</texPath>
+      <texPath>Things/Apparel/CPOLICE/辅警特勤服/辅警特勤服</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -27,7 +27,7 @@
       <Cloth>60</Cloth>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliarySpecialDutyUniform/CPOLICE_AuxiliarySpecialDutyUniform</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/辅警特勤服/辅警特勤服</wornGraphicPath>
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
