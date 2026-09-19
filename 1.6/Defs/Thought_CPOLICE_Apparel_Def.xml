@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>CPOLICE_WearingSWATBeret</defName>
+    <workerClass>CPOLICE.ThoughtWorker_CPOLICE_ApparelMood</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>佩戴特警贝雷帽</label>
+        <description>整齐的警务装备让人更有精神。</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>CPOLICE_WearingNewPatrolCap</defName>
+    <workerClass>CPOLICE.ThoughtWorker_CPOLICE_ApparelMood</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>佩戴新式巡逻帽</label>
+        <description>整齐的警务装备让人更有精神。</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
