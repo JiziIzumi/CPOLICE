@@ -173,7 +173,8 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PatrolCap/CPOLICE_PatrolCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
@@ -219,7 +220,8 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PoliceCap/CPOLICE_PoliceCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
