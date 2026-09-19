@@ -3,7 +3,7 @@
   <ThingCategoryDef>
     <defName>CPOLICE_PoliceAmmo</defName>
     <label>警察弹药</label>
-    <parent>AmmoRifles</parent>
-    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+    <parent>Ammo</parent>
+    <iconPath>UI/Icons/ThingCategories/Ammo</iconPath>
   </ThingCategoryDef>
 </Defs>
