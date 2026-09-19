@@ -5,7 +5,7 @@
     <label>交警｜大檐帽</label>
     <description>交警大檐帽，防弹防爆属性按80%写入。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_TrafficPeakedCap/CPOLICE_TrafficPeakedCap</texPath>
+      <texPath>Things/Apparel/CPOLICE/交警大檐帽/交警大檐帽</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -28,7 +28,7 @@
       <Steel>50</Steel>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_TrafficPeakedCap/CPOLICE_TrafficPeakedCap</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/交警大檐帽/交警大檐帽</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -53,7 +53,7 @@
     <label>交警｜反光背心</label>
     <description>交警反光背心，防弹防爆属性按80%写入。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_TrafficReflectiveVest/CPOLICE_TrafficReflectiveVest</texPath>
+      <texPath>Things/Apparel/CPOLICE/交警反光背心/交警反光背心</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -76,7 +76,7 @@
       <Steel>50</Steel>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_TrafficReflectiveVest/CPOLICE_TrafficReflectiveVest</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/交警反光背心/交警反光背心</wornGraphicPath>
       <layers>
         <li>CPOLICE_Vest</li>
       </layers>
@@ -104,7 +104,7 @@
     <label>特警｜战术背心</label>
     <description>特警背心，防弹防爆属性按80%写入。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_SWATVest/CPOLICE_SWATVest</texPath>
+      <texPath>Things/Apparel/CPOLICE/特警战术背心/特警战术背心</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -127,7 +127,7 @@
       <Steel>50</Steel>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SWATVest/CPOLICE_SWATVest</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/特警战术背心/特警战术背心</wornGraphicPath>
       <layers>
         <li>CPOLICE_Vest</li>
       </layers>
@@ -155,7 +155,7 @@
     <label>特警｜战术头盔</label>
     <description>特警头盔，防弹防爆属性按80%写入。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_SWATHelmet/CPOLICE_SWATHelmet</texPath>
+      <texPath>Things/Apparel/CPOLICE/特警战术头盔/特警战术头盔</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -178,7 +178,7 @@
       <Steel>50</Steel>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SWATHelmet/CPOLICE_SWATHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/特警战术头盔/特警战术头盔</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -203,7 +203,7 @@
     <label>通用｜特勤服</label>
     <description>特勤制服，使用警察制服的数据。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_SpecialDutyUniform/CPOLICE_SpecialDutyUniform</texPath>
+      <texPath>Things/Apparel/CPOLICE/特勤服/特勤服</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -225,7 +225,7 @@
       <Cloth>60</Cloth>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SpecialDutyUniform/CPOLICE_SpecialDutyUniform</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/特勤服/特勤服</wornGraphicPath>
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
