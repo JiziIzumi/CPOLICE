@@ -1,11 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?><Patch><Operation Class="PatchOperationSequence"><operations>
-<li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases</xpath><value><Bulk>8</Bulk><WornBulk>5</WornBulk></value></li>
-<li Class="PatchOperationReplace"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases/ArmorRating_Sharp</xpath><value><ArmorRating_Sharp>16</ArmorRating_Sharp></value></li>
-<li Class="PatchOperationReplace"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases/ArmorRating_Blunt</xpath><value><ArmorRating_Blunt>28</ArmorRating_Blunt></value></li>
-<li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases</xpath><value><Bulk>3</Bulk><WornBulk>2</WornBulk></value></li>
-<li Class="PatchOperationReplace"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases/ArmorRating_Sharp</xpath><value><ArmorRating_Sharp>14</ArmorRating_Sharp></value></li>
-<li Class="PatchOperationReplace"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases/ArmorRating_Blunt</xpath><value><ArmorRating_Blunt>24</ArmorRating_Blunt></value></li>
-<li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/statBases</xpath><value><Bulk>2.5</Bulk><WornBulk>1</WornBulk></value></li>
-<li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RadioShoulderLight"]/statBases</xpath><value><Bulk>0.8</Bulk><WornBulk>0.4</WornBulk></value></li>
-<li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_HKPoliceCoat"]/statBases</xpath><value><Bulk>3</Bulk><WornBulk>2</WornBulk></value></li>
-</operations></Operation></Patch>
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+
+      <!-- Expandable baton: make it a proper CE one-handed melee weapon. -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CPOLICE_ExpandableBaton"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>警棍</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.05</cooldownTime>
+              <chanceFactor>1</chanceFactor>
+              <armorPenetrationBlunt>2.2</armorPenetrationBlunt>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="CPOLICE_ExpandableBaton"]/statBases</xpath>
+        <value>
+          <Bulk>1</Bulk>
+          <MeleeCounterParryBonus>0.10</MeleeCounterParryBonus>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="CPOLICE_ExpandableBaton"]</xpath>
+        <value>
+          <weaponTags>
+            <li>CE_Sidearm_Melee</li>
+            <li>CE_OneHandedWeapon</li>
+          </weaponTags>
+        </value>
+      </li>
+
+      <!-- Riot shield: use CE's actual shield class and coverage logic. -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]</xpath>
+        <value>
+          <thingClass>CombatExtended.Apparel_Shield</thingClass>
+          <modExtensions>
+            <li Class="CombatExtended.ShieldDefExtension">
+              <shieldCoverage>
+                <li>Hands</li>
+                <li>Arms</li>
+                <li>Shoulders</li>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>FullHead</li>
+              </shieldCoverage>
+              <crouchCoverage>
+                <li>Legs</li>
+              </crouchCoverage>
+              <drawAsTall>true</drawAsTall>
+            </li>
+          </modExtensions>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/apparel/layers</xpath>
+        <value>
+          <layers>
+            <li>Shield</li>
+          </layers>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/apparel/bodyPartGroups</xpath>
+        <value>
+          <bodyPartGroups>
+            <li>LeftShoulder</li>
+          </bodyPartGroups>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases</xpath>
+        <value>
+          <Bulk>8</Bulk>
+          <WornBulk>5</WornBulk>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+          <ArmorRating_Sharp>16</ArmorRating_Sharp>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+          <ArmorRating_Blunt>28</ArmorRating_Blunt>
+        </value>
+      </li>
+
+      <!-- Other Phase2 apparel bulk / CE armor. -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases</xpath>
+        <value>
+          <Bulk>3</Bulk>
+          <WornBulk>2</WornBulk>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+          <ArmorRating_Sharp>14</ArmorRating_Sharp>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotHelmet"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+          <ArmorRating_Blunt>24</ArmorRating_Blunt>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/statBases</xpath>
+        <value>
+          <Bulk>2.5</Bulk>
+          <WornBulk>1</WornBulk>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RadioShoulderLight"]/statBases</xpath>
+        <value>
+          <Bulk>0.8</Bulk>
+          <WornBulk>0.4</WornBulk>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_HKPoliceCoat"]/statBases</xpath>
+        <value>
+          <Bulk>3</Bulk>
+          <WornBulk>2</WornBulk>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+</Patch>
