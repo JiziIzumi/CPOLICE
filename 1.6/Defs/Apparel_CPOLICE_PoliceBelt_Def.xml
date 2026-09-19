@@ -37,8 +37,10 @@
     </apparel>
     <equippedStatOffsets>
       <CarryingCapacity>50</CarryingCapacity>
-      <MoveSpeed>1.20</MoveSpeed>
     </equippedStatOffsets>
+    <equippedStatFactors>
+      <MoveSpeed>1.20</MoveSpeed>
+    </equippedStatFactors>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
