@@ -3,34 +3,56 @@ name: Build CPOLICE DLL
 on:
   push:
     branches:
-      - rebuild/full-cpolice-mod
+      - main
     paths:
       - 'Source/CPOLICE/**'
       - '.github/workflows/build-cpolice.yml'
-
   pull_request:
     branches:
       - main
+    paths:
+      - 'Source/CPOLICE/**'
+      - '.github/workflows/build-cpolice.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   build:
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: windows-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
+
       - name: Restore
         run: dotnet restore Source/CPOLICE/CPOLICE.csproj
+
       - name: Build
         run: dotnet build Source/CPOLICE/CPOLICE.csproj -c Release --no-restore
-      - name: Commit compiled DLL
+
+      - name: Verify DLL
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "Assemblies/CPOLICE.dll")) {
+            throw "Assemblies/CPOLICE.dll was not produced."
+          }
+
+      - name: Upload DLL artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CPOLICE.dll
+          path: Assemblies/CPOLICE.dll
+          if-no-files-found: error
+
+      - name: Commit compiled DLL to main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: pwsh
         run: |
           git config user.name "github-actions[bot]"
