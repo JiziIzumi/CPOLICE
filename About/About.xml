@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>CPOLICE</name>
+  <author>VincentZ</author>
+  <packageId>vincentz.cpolice.ranks</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>CPOLICE rank pack add-on for Rocket's Ranks. Adds F1-F8 auxiliary police levels before J1-J13 police ranks. J9-J13 are set as officer ranks. Also adds visible CPOLICE uniforms, vests, caps, and rank-matched shoulder insignia apparel.</description>
+  <modDependencies>
+    <li>
+      <packageId>rockets.ranks</packageId>
+      <displayName>Rocket's Ranks</displayName>
+      <downloadUrl>https://github.com/rocket2guns/RocketsRanks</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>rockets.ranks</li>
+  </loadAfter>
+</ModMetaData>
