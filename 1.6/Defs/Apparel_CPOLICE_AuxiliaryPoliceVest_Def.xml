@@ -5,7 +5,7 @@
     <label>辅警｜执勤背心</label>
     <description>辅助警务人员执勤背心。用于巡逻协助、秩序维护、交通疏导、现场警戒和大型活动安保支援。游戏内设置为全身覆盖的 90% 防护装备，只需 15 块布即可制作，不需要任何研究科技。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_AuxiliaryPoliceVest/CPOLICE_AuxiliaryPoliceVest</texPath>
+      <texPath>Things/Apparel/CPOLICE/辅警执勤背心/辅警执勤背心</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -31,7 +31,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliaryPoliceVest/CPOLICE_AuxiliaryPoliceVest</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/辅警执勤背心/辅警执勤背心</wornGraphicPath>
       <layers>
         <li>CPOLICE_Vest</li>
       </layers>
