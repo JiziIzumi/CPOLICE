@@ -8,6 +8,6 @@
   <ThingCategoryDef>
     <defName>CPOLICE_PoliceWeapons</defName>
     <label>警察武器</label>
-    <parent>WeaponsRanged</parent>
+    <parent>Weapons</parent>
   </ThingCategoryDef>
 </Defs>

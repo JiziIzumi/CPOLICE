@@ -59,9 +59,6 @@
       <li>CPOLICE_SMG</li>
       <li>CPOLICE_PoliceWeapon</li>
     </weaponTags>
-    <modExtensions>
-      
-    </modExtensions>
     <thingCategories Inherit="True">
       <li>CPOLICE_PoliceWeapons</li>
     </thingCategories>
@@ -125,9 +122,6 @@
       <li>CPOLICE_SMG</li>
       <li>CPOLICE_PoliceWeapon</li>
     </weaponTags>
-    <modExtensions>
-      
-    </modExtensions>
     <thingCategories Inherit="True">
       <li>CPOLICE_PoliceWeapons</li>
     </thingCategories>
@@ -191,9 +185,6 @@
       <li>CPOLICE_SMG</li>
       <li>CPOLICE_PoliceWeapon</li>
     </weaponTags>
-    <modExtensions>
-      
-    </modExtensions>
     <thingCategories Inherit="True">
       <li>CPOLICE_PoliceWeapons</li>
     </thingCategories>
@@ -232,7 +223,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_SMG_81Power</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_9mm_CQC171</defaultProjectile>
         <warmupTime>0.70</warmupTime>
         <range>48</range>
         <burstShotCount>5</burstShotCount>
@@ -257,9 +248,6 @@
       <li>CPOLICE_SMG</li>
       <li>CPOLICE_PoliceWeapon</li>
     </weaponTags>
-    <modExtensions>
-      
-    </modExtensions>
     <thingCategories Inherit="True">
       <li>CPOLICE_PoliceWeapons</li>
     </thingCategories>
