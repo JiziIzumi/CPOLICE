@@ -8,7 +8,7 @@ namespace CPOLICE
     {
         public float whiteRadius = 5.5f;
         public float strobeRadius = 4f;
-        public int strobeIntervalTicks = 15;
+        public int strobeIntervalTicks = 45;
 
         public CompProperties_PoliceStrobe()
         {
@@ -69,7 +69,7 @@ namespace CPOLICE
             yield return new Command_Action
             {
                 defaultLabel = "肩灯：" + ModeLabel(),
-                defaultDesc = "切换肩灯模式：关闭 → 白色常亮 → 红蓝爆闪。白灯会实际照亮周围区域；爆闪节奏为红灯三闪 → 蓝灯三闪 → 红蓝红蓝交替，仅提供照明与视觉警示。",
+                defaultDesc = "切换肩灯模式：关闭 → 白色常亮 → 红蓝爆闪。白灯会实际照亮周围区域；爆闪节奏为红灯三闪 → 蓝灯三闪 → 红蓝红蓝交替，每次闪烁间隔约 0.75 秒，仅提供照明与视觉警示。",
                 icon = parent.def.uiIcon,
                 action = CycleMode
             };
@@ -206,7 +206,7 @@ namespace CPOLICE
             glowerMap = null;
         }
 
-        private int StrobeIntervalTicks => Props.strobeIntervalTicks < 12 ? 12 : Props.strobeIntervalTicks > 24 ? 24 : Props.strobeIntervalTicks;
+        private int StrobeIntervalTicks => Props.strobeIntervalTicks < 30 ? 30 : Props.strobeIntervalTicks > 90 ? 90 : Props.strobeIntervalTicks;
 
         private string ModeLabel()
         {
