@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_TrafficPeakedCap</defName>
-    <label>交警大檐帽</label>
+    <label>交警｜大檐帽</label>
     <description>交警大檐帽，防弹防爆属性按80%写入。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_TrafficPeakedCap/CPOLICE_TrafficPeakedCap</texPath>
@@ -13,7 +13,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>600</WorkToMake>
+      <WorkToMake>120</WorkToMake>
       <Mass>0.55</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -33,16 +33,15 @@
         <li>Overhead</li>
       </layers>
       <bodyPartGroups>
-        <li>FullHead</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -50,7 +49,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_TrafficReflectiveVest</defName>
-    <label>交警反光背心</label>
+    <label>交警｜反光背心</label>
     <description>交警反光背心，防弹防爆属性按80%写入。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_TrafficReflectiveVest/CPOLICE_TrafficReflectiveVest</texPath>
@@ -61,7 +60,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>600</WorkToMake>
+      <WorkToMake>120</WorkToMake>
       <Mass>1.00</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -86,14 +85,14 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -101,7 +100,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_SWATVest</defName>
-    <label>特警背心</label>
+    <label>特警｜战术背心</label>
     <description>特警背心，防弹防爆属性按80%写入。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_SWATVest/CPOLICE_SWATVest</texPath>
@@ -112,7 +111,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>600</WorkToMake>
+      <WorkToMake>120</WorkToMake>
       <Mass>1.20</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -137,14 +136,14 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -152,7 +151,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_SWATHelmet</defName>
-    <label>特警头盔</label>
+    <label>特警｜战术头盔</label>
     <description>特警头盔，防弹防爆属性按80%写入。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_SWATHelmet/CPOLICE_SWATHelmet</texPath>
@@ -163,7 +162,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>600</WorkToMake>
+      <WorkToMake>120</WorkToMake>
       <Mass>0.80</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -183,16 +182,15 @@
         <li>Overhead</li>
       </layers>
       <bodyPartGroups>
-        <li>FullHead</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -200,7 +198,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_SpecialDutyUniform</defName>
-    <label>特勤制服</label>
+    <label>通用｜特勤服</label>
     <description>特勤制服，使用警察制服的数据。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_SpecialDutyUniform/CPOLICE_SpecialDutyUniform</texPath>
@@ -211,7 +209,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>105</MaxHitPoints>
-      <WorkToMake>4000</WorkToMake>
+      <WorkToMake>800</WorkToMake>
       <Mass>0.90</Mass>
       <Flammability>1.0</Flammability>
       <EquipDelay>2</EquipDelay>
@@ -237,16 +235,15 @@
         <li>Hands</li>
         <li>Legs</li>
         <li>Feet</li>
-        <li>FullHead</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
