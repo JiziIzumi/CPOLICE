@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_110Armband</defName>
-    <label>110臂章</label>
+    <label>通用｜110臂章</label>
     <description>110臂章，佩戴在手臂位置的警用识别袖套/臂章。它使用独立 CPOLICE_Armband 图层，不占用帽子、内衬、背心或腰带栏位。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_110Armband/CPOLICE_110Armband</texPath>
@@ -13,7 +13,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>300</WorkToMake>
+      <WorkToMake>60</WorkToMake>
       <Mass>0.10</Mass>
       <Flammability>0.8</Flammability>
       <EquipDelay>0.5</EquipDelay>
@@ -32,14 +32,14 @@
       <bodyPartGroups>
         <li>Arms</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
