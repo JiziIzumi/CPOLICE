@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PoliceSuitJacket</defName>
-    <label>警察西装外套</label>
+    <label>高级警员｜西装外套</label>
     <description>一件用于高级警务办公、正式执勤、指挥协调和礼仪场合的警察西装外套。外观保持正式警务风格，游戏内提供 90% 防护，可作为普通衬衣外层穿戴。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PoliceSuitJacket/CPOLICE_PoliceSuitJacket</texPath>
@@ -14,7 +14,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>1600</WorkToMake>
+      <WorkToMake>320</WorkToMake>
       <Mass>1.20</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -36,6 +36,7 @@
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -49,7 +50,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PoliceTieShirt</defName>
-    <label>一般警察领带衬衣</label>
+    <label>警员｜领带衬衣</label>
     <description>一般警务人员穿着的领带衬衣。适合日常办公、接待群众、窗口执勤、普通巡查和正式场合，可与警察西装外套、黑色防护裤、巡逻帽或大盖帽搭配。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PoliceTieShirt/CPOLICE_PoliceTieShirt</texPath>
@@ -61,7 +62,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
-      <WorkToMake>1400</WorkToMake>
+      <WorkToMake>280</WorkToMake>
       <Mass>0.60</Mass>
       <Flammability>1.0</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -85,6 +86,7 @@
         <li>CPOLICE_Uniform</li>
       </layers>
       <useWornGraphicMask>false</useWornGraphicMask>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
@@ -98,7 +100,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_SeniorTieShirt</defName>
-    <label>高级警员领带衬衣</label>
+    <label>高级警员｜领带衬衣</label>
     <description>高级警务人员使用的领带衬衣。样式比一般警察领带衬衣更正式，适合高级警员、指挥岗位、行政岗位和重要会议场景，可与警察西装外套或高级警察大盖帽搭配。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_SeniorTieShirt/CPOLICE_SeniorTieShirt</texPath>
@@ -110,7 +112,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
-      <WorkToMake>1600</WorkToMake>
+      <WorkToMake>320</WorkToMake>
       <Mass>0.65</Mass>
       <Flammability>1.0</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -134,6 +136,7 @@
         <li>CPOLICE_Uniform</li>
       </layers>
       <useWornGraphicMask>false</useWornGraphicMask>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>
