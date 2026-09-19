@@ -29,7 +29,8 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
