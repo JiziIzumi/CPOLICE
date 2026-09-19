@@ -25,4 +25,9 @@
     <label>police armband</label>
     <drawOrder>350</drawOrder>
   </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>CPOLICE_Shield</defName>
+    <label>police shield</label>
+    <drawOrder>380</drawOrder>
+  </ApparelLayerDef>
 </Defs>
