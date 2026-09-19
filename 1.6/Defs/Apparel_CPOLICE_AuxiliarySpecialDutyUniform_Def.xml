@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_AuxiliarySpecialDutyUniform</defName>
-    <label>辅警特勤服</label>
+    <label>辅警｜特勤服</label>
     <description>辅警特勤服，数据与特勤制服一致，仅作为辅警特勤单位的独立制服版本。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_AuxiliarySpecialDutyUniform/CPOLICE_AuxiliarySpecialDutyUniform</texPath>
@@ -13,7 +13,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>105</MaxHitPoints>
-      <WorkToMake>4000</WorkToMake>
+      <WorkToMake>800</WorkToMake>
       <Mass>0.90</Mass>
       <Flammability>1.0</Flammability>
       <EquipDelay>2</EquipDelay>
@@ -39,16 +39,15 @@
         <li>Hands</li>
         <li>Legs</li>
         <li>Feet</li>
-        <li>FullHead</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
