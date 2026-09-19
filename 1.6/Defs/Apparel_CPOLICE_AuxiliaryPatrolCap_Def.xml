@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_AuxiliaryPatrolCap</defName>
-    <label>辅警巡逻帽</label>
+    <label>辅警｜巡逻帽</label>
     <description>辅警巡逻帽，数据与警察巡逻帽一致，仅作为辅警巡逻单位的独立帽子版本。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</texPath>
@@ -17,7 +17,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>0.50</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -29,12 +29,13 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>

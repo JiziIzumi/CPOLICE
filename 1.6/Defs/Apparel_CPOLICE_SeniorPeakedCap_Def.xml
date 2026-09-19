@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_SeniorPeakedCap</defName>
-    <label>高级警察大盖帽</label>
+    <label>高级警员｜大檐帽</label>
     <description>高级警务人员使用的大盖帽，带有更醒目的帽徽和金色装饰，用于区分高级警官、指挥岗位和正式礼仪场合。游戏内设置为全身覆盖的 90% 防弹护具，只需 15 块布即可制作，不需要任何研究科技。</description>
     <thingCategories Inherit="True">
       <li>CPOLICE_PoliceApparel</li>
@@ -17,7 +17,7 @@
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
+      <WorkToMake>240</WorkToMake>
       <Mass>0.50</Mass>
       <Flammability>0.2</Flammability>
       <EquipDelay>1</EquipDelay>
@@ -29,12 +29,13 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
-      </bodyPartGroups>
+      
+        <li>FullHead</li></bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
       <recipeUsers>

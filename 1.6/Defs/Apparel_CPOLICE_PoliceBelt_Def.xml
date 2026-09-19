@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_CPOLICE_PoliceBelt</defName>
-    <label>警用腰带</label>
+    <label>通用｜执勤腰带</label>
     <description>警用腰带，用于携带基础警务装备、弹匣和勤务工具。属性按武警56式胸挂规格编写，提供额外携带能力与移动速度。</description>
     <graphicData>
       <texPath>Things/Apparel/CPOLICE_PoliceBelt/CPOLICE_PoliceBelt</texPath>
@@ -13,7 +13,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>600</WorkToMake>
+      <WorkToMake>120</WorkToMake>
       <Mass>1.00</Mass>
       <Flammability>0.2</Flammability>
       <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
@@ -33,18 +33,20 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
+      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <equippedStatOffsets>
       <CarryingCapacity>50</CarryingCapacity>
-      <MoveSpeed>20</MoveSpeed>
     </equippedStatOffsets>
+    <equippedStatFactors>
+      <MoveSpeed>1.20</MoveSpeed>
+    </equippedStatFactors>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <recipeUsers>
+<recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>

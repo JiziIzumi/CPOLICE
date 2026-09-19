@@ -10,7 +10,7 @@
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>1200</WorkToMake>
       <Mass>3.25</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
@@ -73,7 +73,7 @@
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>1200</WorkToMake>
       <Mass>3.45</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
@@ -136,7 +136,7 @@
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>1200</WorkToMake>
       <Mass>3.35</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
