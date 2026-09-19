@@ -54,9 +54,9 @@ namespace CPOLICE
                 lightMote.exactPosition = pawn.DrawPos;
         }
 
-        public override IEnumerable<Gizmo> CompGetWornGizmosExtra()
+        public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
-            foreach (Gizmo gizmo in base.CompGetWornGizmosExtra()) yield return gizmo;
+            foreach (Gizmo gizmo in base.CompGetGizmosExtra()) yield return gizmo;
             Pawn pawn = Wearer;
             if (pawn == null || pawn.Faction != Faction.OfPlayer) yield break;
 
