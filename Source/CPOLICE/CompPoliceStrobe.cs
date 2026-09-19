@@ -8,7 +8,7 @@ namespace CPOLICE
     {
         public float whiteRadius = 5.5f;
         public float strobeRadius = 4f;
-        public int strobeIntervalTicks = 10;
+        public int strobeIntervalTicks = 15;
 
         public CompProperties_PoliceStrobe()
         {
@@ -48,7 +48,7 @@ namespace CPOLICE
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                strobePhase = ((strobePhase % 4) + 4) % 4;
+                strobePhase = ((strobePhase % 16) + 16) % 16;
                 nextStrobeTick = 0;
             }
         }
@@ -69,7 +69,7 @@ namespace CPOLICE
             yield return new Command_Action
             {
                 defaultLabel = "肩灯：" + ModeLabel(),
-                defaultDesc = "切换肩灯模式：关闭 → 白色常亮 → 红蓝爆闪。白灯会实际照亮周围区域；红蓝爆闪按红 → 灭 → 蓝 → 灭循环，仅提供照明与视觉警示。",
+                defaultDesc = "切换肩灯模式：关闭 → 白色常亮 → 红蓝爆闪。白灯会实际照亮周围区域；爆闪节奏为红灯三闪 → 蓝灯三闪 → 红蓝红蓝交替，仅提供照明与视觉警示。",
                 icon = parent.def.uiIcon,
                 action = CycleMode
             };
@@ -162,18 +162,36 @@ namespace CPOLICE
             }
             else if (ticks >= nextStrobeTick)
             {
-                strobePhase = (strobePhase + 1) % 4;
+                strobePhase = (strobePhase + 1) % 16;
                 nextStrobeTick = ticks + StrobeIntervalTicks;
             }
 
             switch (strobePhase)
             {
+                // Red triple flash: R - off - R - off - R - off
                 case 0:
+                case 2:
+                case 4:
                     EnsureGlower(pawn, new ColorInt(255, 20, 20), Props.strobeRadius, 2);
                     break;
-                case 2:
+
+                // Blue triple flash: B - off - B - off - B - off
+                case 6:
+                case 8:
+                case 10:
                     EnsureGlower(pawn, new ColorInt(25, 80, 255), Props.strobeRadius, 3);
                     break;
+
+                // Alternating tail: R - B - R - B
+                case 12:
+                case 14:
+                    EnsureGlower(pawn, new ColorInt(255, 20, 20), Props.strobeRadius, 2);
+                    break;
+                case 13:
+                case 15:
+                    EnsureGlower(pawn, new ColorInt(25, 80, 255), Props.strobeRadius, 3);
+                    break;
+
                 default:
                     RemoveGlower();
                     break;
@@ -188,7 +206,7 @@ namespace CPOLICE
             glowerMap = null;
         }
 
-        private int StrobeIntervalTicks => Props.strobeIntervalTicks < 9 ? 9 : Props.strobeIntervalTicks > 15 ? 15 : Props.strobeIntervalTicks;
+        private int StrobeIntervalTicks => Props.strobeIntervalTicks < 12 ? 12 : Props.strobeIntervalTicks > 24 ? 24 : Props.strobeIntervalTicks;
 
         private string ModeLabel()
         {
