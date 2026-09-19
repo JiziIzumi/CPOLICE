@@ -5,7 +5,7 @@
     <label>辅警｜巡逻帽</label>
     <description>辅警巡逻帽，数据与警察巡逻帽一致，仅作为辅警巡逻单位的独立帽子版本。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</texPath>
+      <texPath>Things/Apparel/CPOLICE/辅警巡逻帽/辅警巡逻帽</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -31,7 +31,7 @@
       <bodyPartGroups>
       
         <li>FullHead</li></bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_AuxiliaryPatrolCap/CPOLICE_AuxiliaryPatrolCap</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/辅警巡逻帽/辅警巡逻帽</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

@@ -5,7 +5,7 @@
     <label>高级警员｜西装外套</label>
     <description>一件用于高级警务办公、正式执勤、指挥协调和礼仪场合的警察西装外套。外观保持正式警务风格，游戏内提供 90% 防护，可作为普通衬衣外层穿戴。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_PoliceSuitJacket/CPOLICE_PoliceSuitJacket</texPath>
+      <texPath>Things/Apparel/CPOLICE/高级警员西装外套/高级警员西装外套</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
@@ -32,7 +32,7 @@
         <li>Torso</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PoliceSuitJacket/CPOLICE_PoliceSuitJacket</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/高级警员西装外套/高级警员西装外套</wornGraphicPath>
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
@@ -53,7 +53,7 @@
     <label>警员｜领带衬衣</label>
     <description>一般警务人员穿着的领带衬衣。适合日常办公、接待群众、窗口执勤、普通巡查和正式场合，可与警察西装外套、黑色防护裤、巡逻帽或大盖帽搭配。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_PoliceTieShirt/CPOLICE_PoliceTieShirt</texPath>
+      <texPath>Things/Apparel/CPOLICE/警员领带衬衣/警员领带衬衣</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
@@ -81,7 +81,7 @@
         <li>Neck</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_PoliceTieShirt/CPOLICE_PoliceTieShirt</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/警员领带衬衣/警员领带衬衣</wornGraphicPath>
       <layers>
         <li>CPOLICE_Uniform</li>
       </layers>
@@ -103,7 +103,7 @@
     <label>高级警员｜领带衬衣</label>
     <description>高级警务人员使用的领带衬衣。样式比一般警察领带衬衣更正式，适合高级警员、指挥岗位、行政岗位和重要会议场景，可与警察西装外套或高级警察大盖帽搭配。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_SeniorTieShirt/CPOLICE_SeniorTieShirt</texPath>
+      <texPath>Things/Apparel/CPOLICE/高级警员领带衬衣/高级警员领带衬衣</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
@@ -131,7 +131,7 @@
         <li>Neck</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SeniorTieShirt/CPOLICE_SeniorTieShirt</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/高级警员领带衬衣/高级警员领带衬衣</wornGraphicPath>
       <layers>
         <li>CPOLICE_Uniform</li>
       </layers>

@@ -8,7 +8,7 @@
       <li>CPOLICE_PoliceApparel</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</texPath>
+      <texPath>Things/Apparel/CPOLICE/高级警员大檐帽/高级警员大檐帽</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
@@ -31,7 +31,7 @@
       <bodyPartGroups>
       
         <li>FullHead</li></bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CPOLICE_SeniorPeakedCap/CPOLICE_SeniorPeakedCap</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/高级警员大檐帽/高级警员大檐帽</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
