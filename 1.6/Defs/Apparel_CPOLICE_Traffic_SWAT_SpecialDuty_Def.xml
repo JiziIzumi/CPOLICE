@@ -203,7 +203,7 @@
     <label>通用｜特勤服</label>
     <description>特勤制服，使用警察制服的数据。</description>
     <graphicData>
-      <texPath>Things/Apparel/CPOLICE/特勤服/特勤服</texPath>
+      <texPath>Things/Apparel/CPOLICE/通用特勤服/通用特勤服</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories Inherit="True">
@@ -225,7 +225,7 @@
       <Cloth>60</Cloth>
     </costList>
     <apparel>
-      <wornGraphicPath>Things/Apparel/CPOLICE/特勤服/特勤服</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/CPOLICE/通用特勤服/通用特勤服</wornGraphicPath>
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
