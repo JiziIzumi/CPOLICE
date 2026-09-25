@@ -35,9 +35,9 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <recipeUsers>
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>

@@ -33,15 +33,14 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <equippedStatOffsets>
       <CarryingCapacity>50</CarryingCapacity>
+    
+      <MoveSpeed>0.2</MoveSpeed>
     </equippedStatOffsets>
-    <equippedStatFactors>
-      <MoveSpeed>1.20</MoveSpeed>
-    </equippedStatFactors>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>

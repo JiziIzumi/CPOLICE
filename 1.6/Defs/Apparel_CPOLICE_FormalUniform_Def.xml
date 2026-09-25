@@ -36,9 +36,9 @@
       <layers>
         <li>CPOLICE_Coat</li>
       </layers>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <recipeUsers>
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>
@@ -86,9 +86,9 @@
         <li>CPOLICE_Uniform</li>
       </layers>
       <useWornGraphicMask>false</useWornGraphicMask>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <recipeUsers>
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>
@@ -136,9 +136,9 @@
         <li>CPOLICE_Uniform</li>
       </layers>
       <useWornGraphicMask>false</useWornGraphicMask>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <recipeUsers>
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>

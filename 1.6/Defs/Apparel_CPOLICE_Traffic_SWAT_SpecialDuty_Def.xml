@@ -35,9 +35,9 @@
       <bodyPartGroups>
       
         <li>FullHead</li></bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
@@ -86,9 +86,9 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
@@ -137,9 +137,9 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
@@ -185,9 +185,9 @@
       <bodyPartGroups>
       
         <li>FullHead</li></bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
@@ -238,9 +238,9 @@
         <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>

@@ -40,9 +40,9 @@
         <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>

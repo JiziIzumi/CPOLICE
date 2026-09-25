@@ -10,7 +10,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/一级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -18,6 +17,9 @@
       </li>
     </modExtensions>
     <uiOrder>1</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -29,7 +31,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/二级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -37,6 +38,9 @@
       </li>
     </modExtensions>
     <uiOrder>2</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -48,7 +52,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/三级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -56,6 +59,9 @@
       </li>
     </modExtensions>
     <uiOrder>3</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -67,7 +73,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/四级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -75,6 +80,9 @@
       </li>
     </modExtensions>
     <uiOrder>4</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -86,7 +94,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/五级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -94,6 +101,9 @@
       </li>
     </modExtensions>
     <uiOrder>5</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -105,7 +115,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/六级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -113,6 +122,9 @@
       </li>
     </modExtensions>
     <uiOrder>6</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -124,7 +136,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/七级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -132,6 +143,9 @@
       </li>
     </modExtensions>
     <uiOrder>7</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -143,7 +157,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/八级辅警肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -151,6 +164,9 @@
       </li>
     </modExtensions>
     <uiOrder>8</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -162,7 +178,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/二级警员肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -170,6 +185,9 @@
       </li>
     </modExtensions>
     <uiOrder>9</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -181,7 +199,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/一级警员肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -189,6 +206,9 @@
       </li>
     </modExtensions>
     <uiOrder>10</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -200,7 +220,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/三级警司肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -208,6 +227,9 @@
       </li>
     </modExtensions>
     <uiOrder>11</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -219,7 +241,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/二级警司肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -227,6 +248,9 @@
       </li>
     </modExtensions>
     <uiOrder>12</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -238,7 +262,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/一级警司肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -246,6 +269,9 @@
       </li>
     </modExtensions>
     <uiOrder>13</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -257,7 +283,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/三级警督肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -265,6 +290,9 @@
       </li>
     </modExtensions>
     <uiOrder>14</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -276,7 +304,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/二级警督肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -284,6 +311,9 @@
       </li>
     </modExtensions>
     <uiOrder>15</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Enlisted">
     <alwaysHaulable>true</alwaysHaulable>
@@ -295,7 +325,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/一级警督肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -303,6 +332,9 @@
       </li>
     </modExtensions>
     <uiOrder>16</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Officer">
     <alwaysHaulable>true</alwaysHaulable>
@@ -314,7 +346,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/三级警监肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -322,6 +353,9 @@
       </li>
     </modExtensions>
     <uiOrder>17</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Officer">
     <alwaysHaulable>true</alwaysHaulable>
@@ -333,7 +367,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/二级警监肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -341,6 +374,9 @@
       </li>
     </modExtensions>
     <uiOrder>18</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Officer">
     <alwaysHaulable>true</alwaysHaulable>
@@ -352,7 +388,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/一级警监肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -360,6 +395,9 @@
       </li>
     </modExtensions>
     <uiOrder>19</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Officer">
     <alwaysHaulable>true</alwaysHaulable>
@@ -371,7 +409,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/副总警监肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -379,6 +416,9 @@
       </li>
     </modExtensions>
     <uiOrder>20</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ROCKET_Ranks_Officer">
     <alwaysHaulable>true</alwaysHaulable>
@@ -390,7 +430,6 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Things/CPOLICE_Ranks/总警监肩章</wornGraphicPath>
-      <useIngredientsForColor>false</useIngredientsForColor>
     </apparel>
     <modExtensions Inherit="True">
       <li Class="RocketsRanks.RankExtension">
@@ -398,5 +437,8 @@
       </li>
     </modExtensions>
     <uiOrder>21</uiOrder>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
 </Defs>
