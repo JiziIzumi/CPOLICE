@@ -7,6 +7,7 @@ namespace CPOLICE
     public class MapComponent_PoliceStrobe : MapComponent
     {
         private readonly HashSet<CompPoliceStrobe> active = new HashSet<CompPoliceStrobe>();
+        private readonly List<CompPoliceStrobe> tickBuffer = new List<CompPoliceStrobe>();
         private readonly List<CompPoliceStrobe> removeBuffer = new List<CompPoliceStrobe>();
 
         public MapComponent_PoliceStrobe(Map map) : base(map)
@@ -63,7 +64,9 @@ namespace CPOLICE
             }
 
             removeBuffer.Clear();
-            foreach (CompPoliceStrobe comp in active)
+            tickBuffer.Clear();
+            tickBuffer.AddRange(active);
+            foreach (CompPoliceStrobe comp in tickBuffer)
             {
                 if (comp == null || !comp.TickFromMap())
                 {
@@ -79,12 +82,15 @@ namespace CPOLICE
 
         public override void MapRemoved()
         {
-            foreach (CompPoliceStrobe comp in active)
+            tickBuffer.Clear();
+            tickBuffer.AddRange(active);
+            foreach (CompPoliceStrobe comp in tickBuffer)
             {
-                comp?.CleanupFromMapRemoval();
+                comp?.CleanupFromMapRemoval(map);
             }
 
             active.Clear();
+            tickBuffer.Clear();
             removeBuffer.Clear();
             base.MapRemoved();
         }

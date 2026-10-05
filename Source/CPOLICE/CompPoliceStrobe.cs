@@ -31,6 +31,7 @@ namespace CPOLICE
 
         private CompGlower glower;
         private Map glowerMap;
+        private Map registeredMap;
         private IntVec3 glowerPosition = IntVec3.Invalid;
         private int glowerSignature;
 
@@ -145,8 +146,11 @@ namespace CPOLICE
                 }
 
                 RemoveGlower();
+                UnregisterFromMap();
                 return false;
             }
+
+            RegisterWithMap(pawn);
 
             if (mode == LightMode.White)
             {
@@ -200,10 +204,17 @@ namespace CPOLICE
             return true;
         }
 
-        internal void CleanupFromMapRemoval()
+        internal void CleanupFromMapRemoval(Map removedMap)
         {
-            RemoveGlower();
-            glowerMap = null;
+            Pawn pawn = Wearer;
+            if (pawn != null && pawn.Spawned && pawn.Map != null && pawn.Map != removedMap)
+            {
+                // A pawn may transfer before the old map receives its next tick.
+                TickFromMap();
+                return;
+            }
+
+            TurnOffAndCleanup();
         }
 
         private int StrobeIntervalTicks => Props.strobeIntervalTicks < 30 ? 30 : Props.strobeIntervalTicks > 90 ? 90 : Props.strobeIntervalTicks;
@@ -244,7 +255,7 @@ namespace CPOLICE
             Pawn pawn = Wearer;
             if (mode == LightMode.Off || pawn == null || !pawn.Spawned || pawn.Dead || pawn.Downed)
             {
-                UnregisterFromMap();
+                TurnOffAndCleanup();
                 return;
             }
 
@@ -263,13 +274,21 @@ namespace CPOLICE
 
         private void RegisterWithMap(Pawn pawn)
         {
-            pawn?.Map?.GetComponent<MapComponent_PoliceStrobe>()?.Register(this);
+            Map targetMap = pawn?.Map;
+            if (registeredMap == targetMap)
+            {
+                return;
+            }
+
+            UnregisterFromMap();
+            registeredMap = targetMap;
+            registeredMap?.GetComponent<MapComponent_PoliceStrobe>()?.Register(this);
         }
 
         private void UnregisterFromMap()
         {
-            Map map = Wearer?.Map ?? glowerMap;
-            map?.GetComponent<MapComponent_PoliceStrobe>()?.Unregister(this);
+            registeredMap?.GetComponent<MapComponent_PoliceStrobe>()?.Unregister(this);
+            registeredMap = null;
         }
 
         private void EnsureGlower(Pawn pawn, ColorInt color, float radius, int signature)
