@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92G"]/weaponTags</xpath>
+    <value>
+      <li>CE_OneHandedWeapon</li>
+      <li>CE_Sidearm</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92ATactical"]/weaponTags</xpath>
+    <value>
+      <li>CE_OneHandedWeapon</li>
+      <li>CE_Sidearm</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/equippedStatOffsets/CarryingCapacity</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_PoliceBelt"]/equippedStatOffsets</xpath>
+    <value>
+      <CarryWeight>5</CarryWeight>
+      <CarryBulk>8</CarryBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/equippedStatOffsets/CarryingCapacity</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/equippedStatOffsets</xpath>
+    <value>
+      <CarryWeight>5</CarryWeight>
+      <CarryBulk>8</CarryBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/statBases/ArmorRating_Sharp</xpath>
+    <value>
+      <ArmorRating_Sharp>12.8</ArmorRating_Sharp>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_ArmedDutyBelt"]/statBases/ArmorRating_Blunt</xpath>
+    <value>
+      <ArmorRating_Blunt>25.6</ArmorRating_Blunt>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_HKPoliceCoat"]/statBases/ArmorRating_Sharp</xpath>
+    <value>
+      <ArmorRating_Sharp>9.0</ArmorRating_Sharp>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_HKPoliceCoat"]/statBases/ArmorRating_Blunt</xpath>
+    <value>
+      <ArmorRating_Blunt>18.0</ArmorRating_Blunt>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATBeret"]/statBases/ArmorRating_Sharp</xpath>
+    <value>
+      <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATBeret"]/statBases/ArmorRating_Blunt</xpath>
+    <value>
+      <ArmorRating_Blunt>4.8</ArmorRating_Blunt>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_NewPatrolCap"]/statBases/ArmorRating_Sharp</xpath>
+    <value>
+      <ArmorRating_Sharp>4.0</ArmorRating_Sharp>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_NewPatrolCap"]/statBases/ArmorRating_Blunt</xpath>
+    <value>
+      <ArmorRating_Blunt>10.0</ArmorRating_Blunt>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_SWATBeret"]/statBases</xpath>
+    <value>
+      <Bulk>0.2</Bulk>
+      <WornBulk>0.1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_NewPatrolCap"]/statBases</xpath>
+    <value>
+      <Bulk>0.25</Bulk>
+      <WornBulk>0.1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[starts-with(defName,"Apparel_CPOLICE_Rank_")]</xpath>
+    <value>
+      <statBases>
+        <Bulk>0.02</Bulk>
+        <WornBulk>0.01</WornBulk>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ951Longbow"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type972Shotgun"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>grip</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92G"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>grip</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QSZ92ATactical"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>grip</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMG"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMGA"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type79SMGB"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_CQC171Tactical"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_CSLR4SniperRifle"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBU88SniperRifle"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBS09Shotgun"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+          <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/apparel/wornGraphicPath</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_CPOLICE_RiotShield"]/apparel</xpath>
+    <value>
+      <renderNodeProperties>
+        <li>
+          <nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+          <workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+          <texPath>Things/Apparel/CPOLICE/通用防暴盾牌/通用防暴盾牌</texPath>
+          <shaderTypeDef>CutoutComplex</shaderTypeDef>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <drawData>
+            <scale>0.8</scale>
+            <defaultData>
+              <layer>85</layer>
+            </defaultData>
+            <dataEast>
+              <layer>-5</layer>
+              <offset>(0, 0, -0.1)</offset>
+              <rotationOffset>30</rotationOffset>
+            </dataEast>
+            <dataWest>
+              <rotationOffset>-30</rotationOffset>
+            </dataWest>
+            <dataNorth>
+              <layer>-5</layer>
+              <offset>(0.15, 0, -0.1)</offset>
+            </dataNorth>
+            <dataSouth>
+              <offset>(0.15, 0, -0.1)</offset>
+            </dataSouth>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </value>
+  </Operation>
+</Patch>

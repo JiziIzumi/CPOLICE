@@ -10,13 +10,12 @@
     </equippedStatOffsets>
     <recipeMaker><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><recipeUsers><li>TableMachining</li></recipeUsers></recipeMaker>
   </ThingDef>
-  <ThingDef ParentName="ApparelMakeableBase"><defName>Apparel_CPOLICE_RiotShield</defName><label>通用｜防暴盾牌</label><description>警用透明防暴盾牌。显著强化近距离钝击与锐器防护，但会降低移动速度。</description>
+  <ThingDef ParentName="ApparelMakeableBase"><defName>Apparel_CPOLICE_RiotShield</defName><label>通用｜防暴盾牌</label><description>警用透明防暴盾牌。显著强化近距离钝击与锐器防护，但会降低移动速度10%。</description>
     <graphicData><texPath>Things/Apparel/CPOLICE/通用防暴盾牌/通用防暴盾牌</texPath><graphicClass>Graphic_Single</graphicClass></graphicData><thingCategories><li>CPOLICE_PoliceApparel</li></thingCategories>
     <statBases><MaxHitPoints>350</MaxHitPoints><WorkToMake>240</WorkToMake><Mass>5.5</Mass><ArmorRating_Sharp>0.78</ArmorRating_Sharp><ArmorRating_Blunt>0.90</ArmorRating_Blunt><ArmorRating_Heat>0.25</ArmorRating_Heat></statBases><costList><Steel>60</Steel><Plasteel>20</Plasteel></costList>
     <apparel><wornGraphicPath>Things/Apparel/CPOLICE/通用防暴盾牌/通用防暴盾牌</wornGraphicPath><layers><li>CPOLICE_Shield</li></layers><bodyPartGroups><li>Torso</li><li>Arms</li></bodyPartGroups></apparel>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.15</MeleeDodgeChance>
-      <MoveSpeed>-0.1</MoveSpeed>
     </equippedStatOffsets>
     <recipeMaker>
       <useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><recipeUsers><li>TableMachining</li></recipeUsers></recipeMaker>

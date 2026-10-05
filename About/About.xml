@@ -16,5 +16,6 @@
   </modDependencies>
   <loadAfter>
     <li>rockets.ranks</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
 </ModMetaData>
