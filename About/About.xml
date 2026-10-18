@@ -5,8 +5,9 @@
   <packageId>vincentz.cpolice.ranks</packageId>
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
-  <description>CPOLICE｜中国警察装备与警衔扩展（RimWorld 1.6）。包含辅警与人民警察警衔、对应肩章、执勤/交警/特警/正式场合服装、警用配件、伸缩警棍、防暴盾牌、镇暴头盔、配枪执勤腰带、港式警用风衣、对讲机与肩灯，以及多种中国警用枪械。支持 Combat Extended 条件兼容；警衔系统依赖 Rocket's Ranks。</description>
+  <description>CPOLICE｜中国警察装备与警衔扩展（RimWorld 1.6/1.7）。包含辅警与人民警察警衔、对应肩章、执勤/交警/特警/正式场合服装、警用配件、伸缩警棍、防暴盾牌、镇暴头盔、配枪执勤腰带、港式警用风衣、对讲机与肩灯，以及多种中国警用枪械。支持 Combat Extended 条件兼容；警衔系统依赖 Rocket's Ranks。</description>
   <modDependencies>
     <li>
       <packageId>rockets.ranks</packageId>

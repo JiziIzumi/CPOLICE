@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_Type972Shotgun"]/verbs/li/soundCast</xpath>
+    <value>
+      <soundCast>Shot_Shotgun</soundCast>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBS09Shotgun"]/verbs/li/soundCast</xpath>
+    <value>
+      <soundCast>Shot_Shotgun</soundCast>
+    </value>
+  </Operation>
+</Patch>

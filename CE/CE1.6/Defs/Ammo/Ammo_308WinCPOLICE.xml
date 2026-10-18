@@ -31,9 +31,6 @@
       <drawSize>0.70</drawSize>
     </graphicData>
     <ammoClass>FullMetalJacket</ammoClass>
-    <thingCategories>
-      <li>CPOLICE_PoliceAmmo</li>
-    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="BaseBulletCE">
     <defName>Bullet_308WinCPOLICE_FMJ</defName>

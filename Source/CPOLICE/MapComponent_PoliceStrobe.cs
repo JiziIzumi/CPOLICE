@@ -6,7 +6,9 @@ namespace CPOLICE
 {
     public class MapComponent_PoliceStrobe : MapComponent
     {
+        private const int ActiveScanIntervalTicks = 250;
         private readonly HashSet<CompPoliceStrobe> active = new HashSet<CompPoliceStrobe>();
+        private readonly List<CompPoliceStrobe> tickBuffer = new List<CompPoliceStrobe>();
         private readonly List<CompPoliceStrobe> removeBuffer = new List<CompPoliceStrobe>();
 
         public MapComponent_PoliceStrobe(Map map) : base(map)
@@ -47,7 +49,7 @@ namespace CPOLICE
                     if (comp != null && comp.IsActive)
                     {
                         active.Add(comp);
-                        comp.RestoreAfterLoad(pawn);
+                        comp.RestoreAfterMapEntry(pawn);
                     }
                 }
             }
@@ -57,34 +59,69 @@ namespace CPOLICE
         {
             base.MapComponentTick();
 
-            if (active.Count == 0)
+            if (active.Count > 0)
+            {
+                removeBuffer.Clear();
+                tickBuffer.Clear();
+                tickBuffer.AddRange(active);
+                foreach (CompPoliceStrobe comp in tickBuffer)
+                {
+                    if (comp == null || !comp.TickFromMap())
+                    {
+                        removeBuffer.Add(comp);
+                    }
+                }
+
+                for (int i = 0; i < removeBuffer.Count; i++)
+                {
+                    active.Remove(removeBuffer[i]);
+                }
+            }
+
+            if (Find.TickManager.TicksGame % ActiveScanIntervalTicks == 0)
+            {
+                RestoreActiveWornLights();
+            }
+        }
+
+        private void RestoreActiveWornLights()
+        {
+            IReadOnlyList<Pawn> pawns = map.mapPawns?.AllPawnsSpawned;
+            if (pawns == null)
             {
                 return;
             }
 
-            removeBuffer.Clear();
-            foreach (CompPoliceStrobe comp in active)
+            for (int i = 0; i < pawns.Count; i++)
             {
-                if (comp == null || !comp.TickFromMap())
+                List<Apparel> worn = pawns[i].apparel?.WornApparel;
+                if (worn == null)
                 {
-                    removeBuffer.Add(comp);
+                    continue;
                 }
-            }
 
-            for (int i = 0; i < removeBuffer.Count; i++)
-            {
-                active.Remove(removeBuffer[i]);
+                for (int j = 0; j < worn.Count; j++)
+                {
+                    CompPoliceStrobe comp = worn[j].GetComp<CompPoliceStrobe>();
+                    if (comp != null && comp.IsActive && !active.Contains(comp))
+                    {
+                        comp.RestoreAfterMapEntry(pawns[i]);
+                    }
+                }
             }
         }
 
         public override void MapRemoved()
         {
-            foreach (CompPoliceStrobe comp in active)
+            tickBuffer.Clear();
+            tickBuffer.AddRange(active);
+            foreach (CompPoliceStrobe comp in tickBuffer)
             {
-                comp?.CleanupFromMapRemoval();
+                comp?.CleanupFromMapRemoval(map);
             }
 
             active.Clear();
+            tickBuffer.Clear();
             removeBuffer.Clear();
             base.MapRemoved();
         }
