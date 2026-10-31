@@ -1,0 +1,7 @@
+<Project>
+  <!-- Imported before the SDK, so each game version restores into its own obj folder. -->
+  <PropertyGroup>
+    <RimWorldVersion Condition="'$(RimWorldVersion)' == ''">1.7</RimWorldVersion>
+    <BaseIntermediateOutputPath>obj\$(RimWorldVersion)\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

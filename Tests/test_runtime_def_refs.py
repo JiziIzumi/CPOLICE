@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class RuntimeDefReferences(unittest.TestCase):
     def test_shared_definitions_use_the_vanilla_global_work_speed_stat(self):
-        for folder in (ROOT / "1.6", ROOT / "CE" / "CE1.6"):
+        for folder in (ROOT / "Common", ROOT / "CE" / "CE1.6"):
             for path in folder.rglob("*.xml"):
                 self.assertNotIn(
                     "GlobalWorkSpeed",

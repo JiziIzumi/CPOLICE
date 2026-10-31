@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>CPOLICE_QBZ95</defName>
+    <defName>CPOLICE_QBZ95Rifle</defName>
     <label>95突击步枪</label>
     <description>95突击步枪参考QBZ-95 / 95式自动步枪。QBZ-95是中国95枪族的核心型号，采用无托布局，发射5.8×42mm弹药，曾广泛装备解放军、武警和其他准军事执法单位。游戏中设定为威力30、穿甲0.50、射程60。</description>
     <graphicData>
@@ -34,7 +34,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ95</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ95Rifle</defaultProjectile>
         <warmupTime>0.80</warmupTime>
         <range>60</range>
         <burstShotCount>3</burstShotCount>
@@ -97,7 +97,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ951</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ951Rifle</defaultProjectile>
         <warmupTime>0.75</warmupTime>
         <range>70</range>
         <burstShotCount>3</burstShotCount>
@@ -127,7 +127,7 @@
     </thingCategories>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>CPOLICE_QBZ192</defName>
+    <defName>CPOLICE_QBZ192Rifle</defName>
     <label>192突击步枪</label>
     <description>192突击步枪参考QBZ-192，它属于QBZ-191 / 191式枪族中的短自动步枪/卡宾枪思路。191枪族是中国新一代非无托5.8mm步枪体系，包含步枪、短步枪和精确射手步枪等型号。游戏中设定为威力38、穿甲0.65、射程80。</description>
     <graphicData>
@@ -160,7 +160,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ192</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_58x42_QBZ192Rifle</defaultProjectile>
         <warmupTime>0.70</warmupTime>
         <range>80</range>
         <burstShotCount>3</burstShotCount>

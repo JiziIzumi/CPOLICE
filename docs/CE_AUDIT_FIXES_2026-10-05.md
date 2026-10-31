@@ -25,7 +25,7 @@ Validation:
 Limitations: static test loader does not resolve external XML inheritance, CE auto-patching or the full game. No live RimWorld/CE save was launched.
 
 In-game regression checklist:
-1. Load Rocket's Ranks, CE, CPOLICE; inspect startup log.
+1. Load CE, CPOLICE; inspect startup log.
 2. Equip shield with each QSZ92 pistol and baton; shoot/attack. Two-handed rifles remain restricted by CE shield logic.
 3. Inspect shield on four rotations, drafted/undrafted, standing/crouching.
 4. Wear/remove each belt; verify CE max weight/bulk changes by 5/8.

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ApparelLayerDef>
+    <defName>CPOLICE_RankLayer</defName>
+    <label>police rank</label>
+    <drawOrder>85</drawOrder>
+  </ApparelLayerDef>
+
+  <!-- Insignia are granted from the pawn's rank buttons, never crafted, traded or auto-equipped. -->
+  <ThingDef ParentName="ApparelNoQualityBase" Name="CPOLICE_RankInsigniaBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>CPOLICE_RankInsignia</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
+    <alwaysHaulable>true</alwaysHaulable>
+    <smeltable>false</smeltable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>20</MarketValue>
+      <Mass>0.1</Mass>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <scoreOffset>-1000</scoreOffset>
+      <layers>
+        <li>CPOLICE_RankLayer</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <renderNodeProperties>
+        <li>
+          <nodeClass>CPOLICE.PawnRenderNode_PoliceInsignia</nodeClass>
+          <workerClass>CPOLICE.PawnRenderNodeWorker_PoliceInsignia</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <baseLayer>21</baseLayer>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <modExtensions>
+      <li Class="CPOLICE.InsigniaRenderExtension">
+        <bodyTypes>
+          <li>
+            <bodyType>Male</bodyType>
+            <northOffsetX>0</northOffsetX>
+            <northOffsetZ>0.209</northOffsetZ>
+            <northScale>1.35</northScale>
+            <eastOffsetX>-0.0614</eastOffsetX>
+            <eastOffsetZ>0.1579</eastOffsetZ>
+            <eastScale>0.8701</eastScale>
+          </li>
+          <li>
+            <bodyType>Female</bodyType>
+            <northOffsetX>0</northOffsetX>
+            <northOffsetZ>0.197</northOffsetZ>
+            <northScale>1.15</northScale>
+            <eastOffsetX>0.0477</eastOffsetX>
+            <eastOffsetZ>0.1275</eastOffsetZ>
+            <eastScale>0.6842</eastScale>
+          </li>
+          <li>
+            <bodyType>Thin</bodyType>
+            <northOffsetX>0.00115</northOffsetX>
+            <northOffsetZ>0.1441</northOffsetZ>
+            <northScale>0.8285</northScale>
+            <eastOffsetX>-0.0603</eastOffsetX>
+            <eastOffsetZ>0.1309</eastOffsetZ>
+            <eastScale>0.7258</eastScale>
+          </li>
+          <li>
+            <bodyType>Fat</bodyType>
+            <northOffsetX>0</northOffsetX>
+            <northOffsetZ>0.1906</northOffsetZ>
+            <northScale>1.9052</northScale>
+            <eastOffsetX>-0.089</eastOffsetX>
+            <eastOffsetZ>0.0993</eastOffsetZ>
+            <eastScale>0.8118</eastScale>
+          </li>
+          <li>
+            <bodyType>Hulk</bodyType>
+            <northOffsetX>0</northOffsetX>
+            <northOffsetZ>0.247</northOffsetZ>
+            <northScale>1.96</northScale>
+            <eastOffsetX>-0.0683</eastOffsetX>
+            <eastOffsetZ>0.0861</eastOffsetZ>
+            <eastScale>0.834</eastScale>
+          </li>
+        </bodyTypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsigniaBase" Name="CPOLICE_RankInsignia_Enlisted" Abstract="True">
+    <equippedStatOffsets>
+      <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.05</SuppressionPower>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <uiOrder>1</uiOrder>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsigniaBase" Name="CPOLICE_RankInsignia_Officer" Abstract="True">
+    <equippedStatOffsets>
+      <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.10</SuppressionPower>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.10</SlaveSuppressionOffset>
+      <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <uiOrder>2</uiOrder>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F1_Insignia</defName>
+    <label>一级辅警｜肩章</label>
+    <description>一级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/一级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F2_Insignia</defName>
+    <label>二级辅警｜肩章</label>
+    <description>二级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/二级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F3_Insignia</defName>
+    <label>三级辅警｜肩章</label>
+    <description>三级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/三级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F4_Insignia</defName>
+    <label>四级辅警｜肩章</label>
+    <description>四级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/四级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F5_Insignia</defName>
+    <label>五级辅警｜肩章</label>
+    <description>五级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/五级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F6_Insignia</defName>
+    <label>六级辅警｜肩章</label>
+    <description>六级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/六级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F7_Insignia</defName>
+    <label>七级辅警｜肩章</label>
+    <description>七级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/七级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_F8_Insignia</defName>
+    <label>八级辅警｜肩章</label>
+    <description>八级辅警肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/八级辅警肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J1_Insignia</defName>
+    <label>二级警员｜肩章</label>
+    <description>二级警员肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/二级警员肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J2_Insignia</defName>
+    <label>一级警员｜肩章</label>
+    <description>一级警员肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/一级警员肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J3_Insignia</defName>
+    <label>三级警司｜肩章</label>
+    <description>三级警司肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/三级警司肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J4_Insignia</defName>
+    <label>二级警司｜肩章</label>
+    <description>二级警司肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/二级警司肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J5_Insignia</defName>
+    <label>一级警司｜肩章</label>
+    <description>一级警司肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/一级警司肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J6_Insignia</defName>
+    <label>三级警督｜肩章</label>
+    <description>三级警督肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/三级警督肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J7_Insignia</defName>
+    <label>二级警督｜肩章</label>
+    <description>二级警督肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/二级警督肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Enlisted">
+    <defName>Apparel_CPOLICE_Rank_J8_Insignia</defName>
+    <label>一级警督｜肩章</label>
+    <description>一级警督肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/一级警督肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Officer">
+    <defName>Apparel_CPOLICE_Rank_J9_Insignia</defName>
+    <label>三级警监｜肩章</label>
+    <description>三级警监肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/三级警监肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Officer">
+    <defName>Apparel_CPOLICE_Rank_J10_Insignia</defName>
+    <label>二级警监｜肩章</label>
+    <description>二级警监肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/二级警监肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Officer">
+    <defName>Apparel_CPOLICE_Rank_J11_Insignia</defName>
+    <label>一级警监｜肩章</label>
+    <description>一级警监肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/一级警监肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Officer">
+    <defName>Apparel_CPOLICE_Rank_J12_Insignia</defName>
+    <label>副总警监｜肩章</label>
+    <description>副总警监肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/副总警监肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CPOLICE_RankInsignia_Officer">
+    <defName>Apparel_CPOLICE_Rank_J13_Insignia</defName>
+    <label>总警监｜肩章</label>
+    <description>总警监肩章。在小人的“授予警衔”按钮中选择警衔后自动佩戴，晋升或降级时自动更换。</description>
+    <graphicData>
+      <texPath>Things/CPOLICE_Ranks/总警监肩章</texPath>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

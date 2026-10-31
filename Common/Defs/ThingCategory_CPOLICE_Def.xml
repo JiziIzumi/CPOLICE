@@ -6,6 +6,11 @@
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
+    <defName>CPOLICE_RankInsignia</defName>
+    <label>警衔肩章</label>
+    <parent>CPOLICE_PoliceApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
     <defName>CPOLICE_PoliceWeapons</defName>
     <label>警察武器</label>
     <parent>Weapons</parent>

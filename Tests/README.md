@@ -10,8 +10,10 @@ mcs -out:/tmp/ShieldMovementHarness.exe Tests/ShieldMovementHarness.cs Source/CP
 mono /tmp/ShieldMovementHarness.exe
 ```
 
-Full supported SDK build: `dotnet build Source/CPOLICE/CPOLICE.csproj -c Release`.
-The GitHub build workflow also compiles sources and commits the DLL on main.
+Full SDK build, one per game version (1.7 needs the .NET 10 SDK):
+`dotnet build Source/CPOLICE/CPOLICE.csproj -c Release -p:RimWorldVersion=1.6` → `1.6/Assemblies/`
+`dotnet build Source/CPOLICE/CPOLICE.csproj -c Release -p:RimWorldVersion=1.7` → `1.7/Assemblies/`
+The GitHub build workflow also compiles both versions and commits both DLLs on main.
 
 Shoulder-light lifecycle harness (executes both production components):
 

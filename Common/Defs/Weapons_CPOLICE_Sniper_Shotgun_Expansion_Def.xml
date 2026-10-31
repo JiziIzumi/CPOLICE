@@ -34,7 +34,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_308Win_CSLR4</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_308Win_CSLR4Sniper</defaultProjectile>
         <warmupTime>2.20</warmupTime>
         <range>160</range>
         <burstShotCount>1</burstShotCount>
@@ -97,7 +97,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_58x42_QBU88</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_58x42_QBU88Sniper</defaultProjectile>
         <warmupTime>1.40</warmupTime>
         <range>120</range>
         <burstShotCount>1</burstShotCount>
@@ -160,7 +160,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_12Gauge_QBS09</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_12Gauge_QBS09Shotgun</defaultProjectile>
         <warmupTime>0.70</warmupTime>
         <range>40</range>
         <burstShotCount>1</burstShotCount>

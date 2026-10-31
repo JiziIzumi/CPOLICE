@@ -223,7 +223,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CPOLICE_Bullet_9mm_CQC171</defaultProjectile>
+        <defaultProjectile>CPOLICE_Bullet_9mm_CQC171SMG</defaultProjectile>
         <warmupTime>0.70</warmupTime>
         <range>48</range>
         <burstShotCount>5</burstShotCount>

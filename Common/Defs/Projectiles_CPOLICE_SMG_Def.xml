@@ -15,7 +15,7 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>CPOLICE_Bullet_9mm_CQC171</defName>
+    <defName>CPOLICE_Bullet_9mm_CQC171SMG</defName>
     <label>9mm CQC171 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/CPOLICE_Bullet_SMG</texPath>

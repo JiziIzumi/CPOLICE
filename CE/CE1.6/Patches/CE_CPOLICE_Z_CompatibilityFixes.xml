@@ -106,7 +106,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95"]/tools</xpath>
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95Rifle"]/tools</xpath>
     <value>
       <tools>
         <li Class="CombatExtended.ToolCE">
@@ -138,7 +138,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192"]/tools</xpath>
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192Rifle"]/tools</xpath>
     <value>
       <tools>
         <li Class="CombatExtended.ToolCE">

@@ -321,9 +321,9 @@
     </nomatch>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95"]</xpath>
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ95Rifle"]</xpath>
     <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
-      <defName>CPOLICE_QBZ95</defName>
+      <defName>CPOLICE_QBZ95Rifle</defName>
       <statBases>
         <Mass>3.25</Mass>
         <Bulk>7.0</Bulk>
@@ -401,9 +401,9 @@
     </nomatch>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192"]</xpath>
+    <xpath>/Defs/ThingDef[defName="CPOLICE_QBZ192Rifle"]</xpath>
     <match Class="CombatExtended.PatchOperationMakeGunCECompatible">
-      <defName>CPOLICE_QBZ192</defName>
+      <defName>CPOLICE_QBZ192Rifle</defName>
       <statBases>
         <Mass>3.35</Mass>
         <Bulk>7.1</Bulk>

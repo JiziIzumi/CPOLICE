@@ -27,28 +27,33 @@ jobs:
         with:
           fetch-depth: 0
 
+      # RimWorld 1.6 builds against net472, 1.7 against net10.0.
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
-      - name: Restore
-        run: dotnet restore Source/CPOLICE/CPOLICE.csproj
+      - name: Build for RimWorld 1.6
+        run: dotnet build Source/CPOLICE/CPOLICE.csproj -c Release -p:RimWorldVersion=1.6
 
-      - name: Build
-        run: dotnet build Source/CPOLICE/CPOLICE.csproj -c Release --no-restore
+      - name: Build for RimWorld 1.7
+        run: dotnet build Source/CPOLICE/CPOLICE.csproj -c Release -p:RimWorldVersion=1.7
 
-      - name: Verify DLL
+      - name: Verify DLLs
         shell: pwsh
         run: |
-          if (-not (Test-Path "Assemblies/CPOLICE.dll")) {
-            throw "Assemblies/CPOLICE.dll was not produced."
+          foreach ($version in "1.6", "1.7") {
+            if (-not (Test-Path "$version/Assemblies/CPOLICE.dll")) {
+              throw "$version/Assemblies/CPOLICE.dll was not produced."
+            }
           }
 
       - name: Upload DLL artifact
         uses: actions/upload-artifact@v4
         with:
-          name: CPOLICE.dll
-          path: Assemblies/CPOLICE.dll
+          name: CPOLICE-assemblies
+          path: |
+            1.6/Assemblies/CPOLICE.dll
+            1.7/Assemblies/CPOLICE.dll
           if-no-files-found: error
 
       - name: Commit compiled DLL to main
@@ -57,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Assemblies/CPOLICE.dll
+          git add 1.6/Assemblies/CPOLICE.dll 1.7/Assemblies/CPOLICE.dll
           if (-not (git diff --cached --quiet)) {
             git commit -m "Build CPOLICE runtime DLL [skip ci]"
             git push

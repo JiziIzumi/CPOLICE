@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def load(ce):
     root = E.Element('Defs')
-    folders = [ROOT/'1.6/Defs'] + ([ROOT/'CE/CE1.6/Defs'] if ce else [])
+    folders = [ROOT/'Common/Defs'] + ([ROOT/'CE/CE1.6/Defs'] if ce else [])
     for folder in folders:
         for path in sorted(folder.rglob('*.xml')):
             for node in E.parse(str(path)).getroot(): root.append(copy.deepcopy(node))
@@ -46,7 +46,7 @@ def load(ce):
                     parent=target.getparent();index=parent.index(target);parent.remove(target)
                     for child in op.find('value'):parent.insert(index,copy.deepcopy(child));index+=1
         else:raise AssertionError('Unsupported operation '+str(cls))
-    folders=[ROOT/'1.6/Patches'] + ([ROOT/'CE/CE1.6/Patches'] if ce else [])
+    folders=[ROOT/'Common/Patches'] + ([ROOT/'CE/CE1.6/Patches'] if ce else [])
     for folder in folders:
         for path in sorted(folder.glob('*.xml')):
             for op in E.parse(str(path)).getroot(): apply(op)
@@ -98,4 +98,54 @@ class Compatibility(unittest.TestCase):
                 patched.append(op.findtext('defName'));self.assertIn(op.findtext('AmmoUser/ammoSet'),sets)
                 self.assertIn(op.findtext('Properties/defaultProjectile'),names)
         guns=self.ce.xpath('ThingDef[verbs and defName]/defName/text()');self.assertEqual(set(guns),set(patched))
+    def test_no_rockets_ranks_dependency(self):
+        about=E.parse(str(ROOT/'About/About.xml'))
+        self.assertFalse(about.xpath('//modDependencies/li[packageId="rockets.ranks"]'))
+        self.assertNotIn('rockets.ranks',about.xpath('//loadAfter/li/text()'))
+        for path in list((ROOT/'Common').rglob('*.xml'))+list((ROOT/'CE').rglob('*.xml')):
+            self.assertNotIn('Rocket',path.read_text(encoding='utf-8'),str(path))
+    def test_every_rank_has_its_own_insignia(self):
+        ranks=self.vanilla.xpath('*[local-name()="CPOLICE.PoliceRankDef"]')
+        self.assertEqual(len(ranks),21)
+        insignia=[r.findtext('insignia') for r in ranks]
+        self.assertEqual(len(insignia),len(set(insignia)))
+        for rank in ranks:
+            self.assertTrue(self.vanilla.xpath('ThingDef[defName="'+rank.findtext('insignia')+'"]'),rank.findtext('defName'))
+            code=rank.findtext('defName').split('_')[-1]
+            self.assertEqual(rank.findtext('track'),'Auxiliary' if code.startswith('F') else 'Police')
+            self.assertTrue((ROOT/'Textures'/(rank.findtext('iconPath')+'.png')).exists())
+    def test_insignia_render_through_own_nodes(self):
+        base=self.vanilla.xpath('ThingDef[@Name="CPOLICE_RankInsigniaBase"]')[0]
+        node=base.find('apparel/renderNodeProperties/li')
+        self.assertEqual(node.findtext('nodeClass'),'CPOLICE.PawnRenderNode_PoliceInsignia')
+        self.assertEqual(node.findtext('workerClass'),'CPOLICE.PawnRenderNodeWorker_PoliceInsignia')
+        self.assertEqual(len(base.xpath('modExtensions/li[@Class="CPOLICE.InsigniaRenderExtension"]/bodyTypes/li')),5)
+        # Head is render layer 50: the base layer must start inside the body-apparel range.
+        self.assertLess(float(node.findtext('baseLayer')),50)
+        for d in self.vanilla.xpath('ThingDef[starts-with(defName,"Apparel_CPOLICE_Rank_")]'):
+            self.assertIn(d.get('ParentName'),('CPOLICE_RankInsignia_Enlisted','CPOLICE_RankInsignia_Officer'))
+            self.assertIsNone(d.find('apparel/wornGraphicPath'))
+            tex=d.findtext('graphicData/texPath')
+            for suffix in ('','_south','_east'):self.assertTrue((ROOT/'Textures'/(tex+suffix+'.png')).exists(),tex+suffix)
+    def test_xml_classes_exist_in_source(self):
+        source=''.join(p.read_text(encoding='utf-8') for p in (ROOT/'Source/CPOLICE').glob('*.cs'))
+        names=set()
+        for path in list((ROOT/'Common').rglob('*.xml'))+list((ROOT/'CE').rglob('*.xml')):
+            tree=E.parse(str(path))
+            names.update(v.split('.',1)[1] for v in tree.xpath('//@Class|//nodeClass/text()|//workerClass/text()') if v.startswith('CPOLICE.'))
+            names.update(el.tag.split('.',1)[1] for el in tree.iter() if isinstance(el.tag,str) and el.tag.startswith('CPOLICE.'))
+        self.assertTrue(names)
+        for name in names:self.assertRegex(source,r'class '+name+r'\b',name)
+    def test_thingdef_names_do_not_end_with_digit(self):
+        # RimWorld 1.7 rejects these at load time.
+        for name in self.ce.xpath('ThingDef/defName/text()'):self.assertFalse(name[-1].isdigit(),name)
+    def test_each_game_version_loads_its_own_assembly(self):
+        about=E.parse(str(ROOT/'About/About.xml'))
+        folders=E.parse(str(ROOT/'LoadFolders.xml')).getroot()
+        for version in ('1.6','1.7'):
+            self.assertIn(version,about.xpath('//supportedVersions/li/text()'))
+            loaded=folders.find('v'+version).xpath('li/text()')
+            self.assertIn('Common',loaded);self.assertIn(version,loaded)
+            self.assertFalse(set(loaded)&({'1.6','1.7'}-{version}))
+        self.assertFalse((ROOT/'Assemblies').exists())
 if __name__=='__main__':unittest.main()

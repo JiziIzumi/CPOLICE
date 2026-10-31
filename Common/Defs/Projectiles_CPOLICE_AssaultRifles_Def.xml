@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef ParentName="BaseBullet">
-    <defName>CPOLICE_Bullet_58x42_QBZ95</defName>
+    <defName>CPOLICE_Bullet_58x42_QBZ95Rifle</defName>
     <label>5.8mm rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ95</texPath>
@@ -15,7 +15,7 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>CPOLICE_Bullet_58x42_QBZ951</defName>
+    <defName>CPOLICE_Bullet_58x42_QBZ951Rifle</defName>
     <label>5.8mm rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ951</texPath>
@@ -29,7 +29,7 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>CPOLICE_Bullet_58x42_QBZ192</defName>
+    <defName>CPOLICE_Bullet_58x42_QBZ192Rifle</defName>
     <label>5.8mm rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/CPOLICE_Bullet_58x42_QBZ192</texPath>

@@ -18,7 +18,7 @@ class VersionMetadata(unittest.TestCase):
         entries = [(node.text, node.attrib.get('IfModActive')) for node in version.findall('./li')]
         self.assertEqual(entries, [
             ('CE/CE1.6', 'CETeam.CombatExtended'),
-            ('1.6', None),
+            ('Common', None),
             ('/', None),
             ('1.7', None),
         ])
