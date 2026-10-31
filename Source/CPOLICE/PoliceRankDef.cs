@@ -99,24 +99,6 @@ namespace CPOLICE
             return null;
         }
 
-        // Promotion and demotion stay inside one track: auxiliaries never step into police ranks.
-        public static PoliceRankDef Neighbor(PoliceRankDef rank, int step)
-        {
-            if (rank == null)
-            {
-                return null;
-            }
-
-            List<PoliceRankDef> ranks = AllRanksOrdered;
-            int index = ranks.IndexOf(rank) + step;
-            if (index < 0 || index >= ranks.Count || ranks[index].track != rank.track)
-            {
-                return null;
-            }
-
-            return ranks[index];
-        }
-
         public static bool TrySetRank(Pawn pawn, PoliceRankDef rank)
         {
             if (pawn?.apparel == null || pawn.Dead)
